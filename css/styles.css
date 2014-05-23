@@ -10,7 +10,7 @@
 .container-fluid-left {
   margin-left:-10px;
   max-width: 710px;
-  min-height:795px;
+  min-height:800px;
 }
 
 .container-fluid-right {
@@ -440,6 +440,7 @@ z-index:30;
 }
 .thumbnail img {
   width: 100%;
+  max-height:180px;
 }
 .active-link {
   background-color: #2E3436;
@@ -524,9 +525,15 @@ caption h2 {
 }
 
 .shop_online {
-	margin-top:5px;
+	margin-top:22px;
 	height:120px;
 }
+
+@media screen and (-webkit-min-device-pixel-ratio:0)
+{ 
+    .shop_online {margin-top:5px;} 
+}
+
 
 .buttons {
 	margin-top:15px;
@@ -657,8 +664,37 @@ caption h2 {
 .text-left {
 	padding-left:15px;
 }
-	
 
+.text-left a {
+	color:black;
+}
+
+.text-left a:hover {
+	text-decoration:none;
+}	
+	
+.shop-time {
+	font-weight:bold;
+	text-decoration:underline;
+	font-size:14px;
+}
+
+.trading-hours {
+	margin-left:15px;
+}
+
+.trading-hours h2 {
+	color:white;
+	background-color:rgba(1,0,102,1.00);
+	text-align:center;
+	font-size:25px;
+	margin-top:-5px;
+	line-height:30px;
+}
+
+.trading-hours p {
+	padding:0 5px;
+}
 /*----------------------------------------------------------------------------------------------------------------------------------
 														Removing space spans
 -----------------------------------------------------------------------------------------------------------------------------------*/

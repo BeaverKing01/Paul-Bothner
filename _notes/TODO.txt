@@ -1,33 +1,25 @@
 TOGET:
-Dreamweaver diff/comp
-kss
 
 
 TODO:
 
 ****************PUSH COMMITS TO GITHUB REPO********************
 
-tweak everything for firefox/mobile
-search functionality
-table spans fpr staff pics
 font awesome - learn and use
 find up/down arrows
 reorder CSS
-DL DW FTP videos
 
 ___MAIN___
 Community Alliance Pics Overlay
 SSI News Feed
-max-height for sales pics
 Search functionality - do this last
 
 ___Resources____
 
 ___Branches____
 Link Branches Overview to Contact
-Link Branches Overview to Shop Hours
-How many staff members will be featured for each branch
 Map iframe for google maps
+populate each branch - James
 
 ___Our Friends___
 
