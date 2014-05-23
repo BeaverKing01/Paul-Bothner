@@ -1,5 +1,9 @@
-TOGET:
+IMPORTANT:
+Our legacy/PAIA/Store times/disclaimer shoud NOT be under resources - move to 
+footer informataion instead
 
+TOGET:
+Timothy Web HTML form series
 
 TODO:
 
@@ -33,7 +37,5 @@ ___Contact___
 				_____________STUFF I NEED_________
 
 Finance it and we can find it buttons
-
-
 Suburbs for Jean Village and Glenwood
 
