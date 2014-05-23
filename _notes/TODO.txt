@@ -1,0 +1,46 @@
+TOGET:
+Dreamweaver diff/comp
+
+
+TODO:
+
+****************PUSH COMMITS TO GITHUB REPO********************
+
+tweak everything for firefox/mobile
+search functionality
+table spans fpr staff pics
+font awesome - learn and use
+find up/down arrows
+reorder CSS
+DL DW FTP videos
+
+___MAIN___
+Community Alliance Pics Overlay
+SSI News Feed
+max-height for sales pics
+Search functionality - do this last
+
+___Resources____
+
+___Branches____
+Link Branches Overview to Contact
+Link Branches Overview to Shop Hours
+How many staff members will be featured for each branch
+Map iframe for google maps
+
+___Our Friends___
+
+___Service Department___
+
+___Mailing List___
+
+___Contact___
+
+
+				_____________STUFF I NEED_________
+
+Finance it and we can find it buttons
+
+
+Suburbs for Jean Village and Glenwood
+

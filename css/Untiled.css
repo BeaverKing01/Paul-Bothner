@@ -1,0 +1,478 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+.container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1000px;
+}
+.container-fluid-left {
+  margin-left:-10px;
+  max-width: 710px;
+  min-height:795px;
+  
+}
+
+.container-fluid-right {
+  margin-right:0px;
+  width: 312px;
+  margin-left:695px;
+  position:absolute;
+  margin-top:4px;
+
+  
+}
+
+
+.logo-non {
+	max-width:1000px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color:red;
+	margin-top:10px;
+
+}
+.prime {
+	margin-left:-4px;
+	margin-bottom:-5px;
+	width:250px;
+	height:174px;
+	background:url(../pics/prime/1.png);
+}
+
+.prime1 {
+	margin-bottom:-5px;
+	width:750px;
+	height:174px;
+}
+
+
+
+.logo-full {
+	max-width:1000px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.logo-full img {
+	width:92.5%;
+}
+
+
+.navbar .navbar-form{
+    padding: 0 15px;
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------------
+														Prime Banner Slider
+----------------------------------------------------------------------------------------------------------------------------------*/
+
+#Banner {
+	max-width:1000px;
+	margin: 20px auto;
+}
+
+#banner_left {
+	max-width:760px;
+	margin:0;
+	display:inline-block;
+
+}
+
+#banner_right {
+	max-width:230px;
+	display:inline-block;
+
+}
+
+.big_banner {
+	width:697px;
+	height:200px;
+	margin-bottom:-5px;
+	background:url(../pics/banner/1d.png);
+}
+
+.small_banner {
+	width:306px;
+	height:50px;
+	margin-bottom:-5px;
+	margin-left:-5px;
+	background:url(../pics/banner/2d.png);
+}
+.small_banner2 {
+	width:306px;
+	height:50px;
+	margin-bottom:-5px;
+	margin-left:-5px;
+	background:url(../pics/banner/3d.png);
+
+}
+.small_banner3 {
+	width:306px;
+	height:50px;
+	margin-bottom:-5px;
+	background:url(../pics/banner/4d.png);
+	margin-left:-5px;
+}
+.small_banner4 {
+	width:306px;
+	height:50px;
+	margin-bottom:-5px;
+	background:url(../pics/banner/5d.png);
+	margin-left:-5px;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------------
+														Community Alignment
+--------------------------------------------------------------------------------------------------------------------------------*/
+
+.com_al {
+	padding:100px;
+}
+
+
+
+/*--------------------------------------------------------------------------------------------------------------------------------
+														Search
+--------------------------------------------------------------------------------------------------------------------------------*/
+
+.search-box		{ 
+		position:absolute;
+		padding-left:10px;
+		padding-top:6px; 
+		clear:both; 
+ 
+}
+
+.search-form 			{ width: 200px; height: 28px; margin: 0; 
+						position: relative; }
+
+.search-input 			{  
+						position: relative; 
+						margin: 0; padding: 2px 35px 1px 5px; 
+						width: 110px; outline:none; 
+						color: #999; background: #eee; 
+						border: 1px solid #d2d2d2; 
+						border-bottom: 1px solid #d8d8d8; 
+						border-radius: 3px; 
+						-webkit-box-shadow: 0px 1px 0px rgba(255,255,255,0.58), inset 0px 0px 6px rgba(0,0,0,0.07); 
+						-moz-box-shadow: 0px 1px 0px rgba(255,255,255,0.58), inset 0px 0px 6px rgba(0,0,0,0.07); 
+						-o-box-shadow: 0px 1px 0px rgba(255,255,255,0.58), inset 0px 0px 6px rgba(0,0,0,0.07); box-shadow: 0px 1px 0px rgba(255,255,255,0.58), inset 0px 0px 6px rgba(0,0,0,0.07); }
+
+.search-input:focus 	{ background: #fcfcfc; color: #666; 
+						border: 1px solid #d2d2d2; 
+						border-bottom: 1px solid #d8d8d8; }
+
+.search-button 		{ position: absolute; 
+						left: 108px; top: 4px; 
+						width: 28px; height: 21px; 
+						text-indent: -9999px; 
+						outline: none; 
+						border: 1px solid #ccc; 
+						border-bottom: 1px solid #d2d2d2; 
+						border-radius: 0px 3px 3px 0px; 
+						cursor: pointer; 
+						-webkit-box-shadow: -2px 0px 2px rgba(0,0,0,0.027), inset 0px 1px 0px rgba(255,255,255,0.69), inset 0px -1px 0px rgba(0,0,0,0.0187), inset 0px 14px 13px rgba(255,255,255,0.57); 
+						-moz-box-shadow: -2px 0px 2px rgba(0,0,0,0.027), inset 0px 1px 0px rgba(255,255,255,0.69), inset 0px -1px 0px rgba(0,0,0,0.0187), inset 0px 14px 13px rgba(255,255,255,0.57); 
+						-o-box-shadow: -2px 0px 2px rgba(0,0,0,0.027), inset 0px 1px 0px rgba(255,255,255,0.69), inset 0px -1px 0px rgba(0,0,0,0.0187), inset 0px 14px 13px rgba(255,255,255,0.57); 
+						box-shadow: -2px 0px 2px rgba(0,0,0,0.027), inset 0px 1px 0px rgba(255,255,255,0.69), inset 0px -1px 0px rgba(0,0,0,0.0187), inset 0px 14px 13px rgba(255,255,255,0.57); 
+						background-color:#ececec;
+						background-repeat:no-repeat; }
+
+.search-button:hover 	{ -webkit-box-shadow: -2px 0px 2px rgba(0,0,0,0.027), inset 0px 1px 0px rgba(255,255,255,0.69), inset 0px -1px 0px rgba(0,0,0,0.0187), inset 0px 14px 13px rgba(255,255,255,0.75); 
+						-moz-box-shadow: -2px 0px 2px rgba(0,0,0,0.027), inset 0px 1px 0px rgba(255,255,255,0.69), inset 0px -1px 0px rgba(0,0,0,0.0187), inset 0px 14px 13px rgba(255,255,255,0.75); 
+						-o-box-shadow: -2px 0px 2px rgba(0,0,0,0.027), inset 0px 1px 0px rgba(255,255,255,0.69), inset 0px -1px 0px rgba(0,0,0,0.0187), inset 0px 14px 13px rgba(255,255,255,0.75); 
+						box-shadow: -2px 0px 2px rgba(0,0,0,0.027), inset 0px 1px 0px rgba(255,255,255,0.69), inset 0px -1px 0px rgba(0,0,0,0.0187), inset 0px 14px 13px rgba(255,255,255,0.75);}
+
+.search-button:active 	{ -webkit-box-shadow: -2px 0px 2px rgba(0,0,0,0.027), inset 0px 1px 0px rgba(255,255,255,0.58), inset 0px -1px 0px rgba(0,0,0,0.0187), inset 0px -14px 13px rgba(255,255,255,0.57); 
+						-moz-box-shadow: -2px 0px 2px rgba(0,0,0,0.027), inset 0px 1px 0px rgba(255,255,255,0.58), inset 0px -1px 0px rgba(0,0,0,0.0187), inset 0px -14px 13px rgba(255,255,255,0.57); 
+						-o-box-shadow: -2px 0px 2px rgba(0,0,0,0.027), inset 0px 1px 0px rgba(255,255,255,0.58), inset 0px -1px 0px rgba(0,0,0,0.0187), inset 0px -14px 13px rgba(255,255,255,0.57); 
+						box-shadow: -2px 0px 2px rgba(0,0,0,0.027), inset 0px 1px 0px rgba(255,255,255,0.58), inset 0px -1px 0px rgba(0,0,0,0.0187), inset 0px -14px 13px rgba(255,255,255,0.57);}
+
+/*------------------------------------------End of Search----------------------------------------------------------------------------*/
+
+
+/*-------------------------------------------------------------------------------------------------------------------------------------
+														NAVBAR
+------------------------------------------------------------------------------------------------------------------------------------*/
+.navbar-custom {
+  background-color:rgba(107,89,148,1.00);
+  border-color: #080808;
+}
+.navbar-custom .navbar-brand {
+  color: #999;
+}
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus {
+  color: #fff;
+  background-color: transparent;
+}
+.navbar-custom .navbar-text {
+  color: #999;
+}
+.navbar-custom .navbar-nav > li > a {
+  color: #999;
+}
+.navbar-custom .navbar-nav > li > a:hover,
+.navbar-custom .navbar-nav > li > a:focus {
+  color: #fff;
+  background-color: transparent;
+}
+.navbar-custom .navbar-nav > .active > a,
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus {
+  color: #fff;
+  background-color: #080808;
+}
+.navbar-custom .navbar-nav > .disabled > a,
+.navbar-custom .navbar-nav > .disabled > a:hover,
+.navbar-custom .navbar-nav > .disabled > a:focus {
+  color: #444;
+  background-color: transparent;
+}
+.navbar-custom .navbar-toggle {
+  border-color: #333;
+}
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+  background-color: #333;
+}
+.navbar-custom .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+.navbar-custom .navbar-collapse,
+.navbar-custom .navbar-form {
+  border-color: #101010;
+}
+.navbar-custom .navbar-nav > .open > a,
+.navbar-custom .navbar-nav > .open > a:hover,
+.navbar-custom .navbar-nav > .open > a:focus {
+  color: #fff;
+  background-color: #080808;
+}
+
+.navbar-inner, footer {
+  border: none;
+  padding: 15px 0;
+}
+.navbar .brand-bootbus {
+	font-size: 30px;
+	cursor: pointer;
+	text-shadow: none;
+	color: white;
+  font-weight: bold;
+}
+.navbar .nav li.dropdown > .dropdown-toggle .caret {
+	border-top-color: white;
+	border-bottom-color: white;
+}
+.navbar .nav > li > a {
+	text-shadow: none;
+	color: white;
+	font-size: 12px;
+  font-weight: bold;
+  -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+         border-radius: 3px;
+}
+.navbar .nav > li > a:hover,
+.navbar .nav > li > a:focus {
+	color: #0066ff !important;
+	background: #cccccc !important;
+}
+.dropdown-menu li > a:hover,
+.dropdown-menu li > a:focus,
+.dropdown-submenu:hover > a {
+	background: #cccccc;
+}
+/* ------------------------------------------End : navigation --------------------------------------------------------------------*/
+
+/* Start : Override Bootstrap carousel */
+.carousel-control {
+  border: none;
+}
+.left {
+  left: 0;
+}
+.right {
+  right: 0 !important;
+}
+/*--------------------------------------------- End : Override Bootstrap carousel --------------------------------------------------*/
+
+
+/*---------------------------------------------------------------------------------------------------------------------------------------                               						    Start: BOTHNER specific CSS 
+----------------------------------------------------------------------------------------------------------------------------------------*/
+.content {
+  padding: 0px 0;
+}
+.thumbnail img {
+  width: 100%;
+}
+.active-link {
+  background-color: #2E3436;
+}
+.page-header {
+  margin: 0 0 30px;
+  border-bottom: 1px solid #ddd;
+}
+.slider {
+	border-bottom:  1px solid #ddd;
+}
+.thumbnail .caption {
+  color: white;
+  background-color:rgba(1,0,102,1.00);
+}
+
+.thumbnail .caption p {
+	font-size:25px;
+	padding:5px 0;
+	text-align:center;
+	font-weight:700;
+}
+
+.thumbnail .sales {
+	margin-top:-10px;
+}
+
+.widget-footer {
+  padding: 6%;
+  background-color: #EEEEEC;
+  border-top: 1px solid #DDD;
+}
+.widget-footer p {
+  margin: -5px 0;
+}
+
+.price {
+	text-align:right;
+	font-weight:bold;
+	padding-right:10px;
+	padding-bottom:5px;
+	
+}
+
+
+.news_feed p {
+	font-size:11px;
+	margin-top:-7px;
+	color:black;
+	padding-left:5px
+	
+}
+
+caption {
+	background-color:rgba(1,0,102,1.00);
+}
+
+caption h2 {
+	color:white;
+	margin:0;
+}
+
+.news_feed td {
+	background-color:rgba(103,102,204,1.00);
+}
+ .mini-title {
+	 padding-top:5px;
+	 margin-bottom:5px;
+	 font-weight:bold;
+	 color:black;
+	 text-align:center;
+ }
+
+.news_pic {
+	padding-left:5px;
+}
+
+.buttons {
+	margin-top:17px;
+}
+
+
+.sales-bg {
+	margin:-8px 0;  
+}
+
+.shop_online {
+	margin-top:-2px;
+}
+
+.buttons {
+	margin-top:20px;
+}
+ .news_sec {
+	 height:105px;
+ }
+ 
+ 
+
+/*----------------------------------------------------------------------------------------------------------------------------------
+													    Footer
+----------------------------------------------------------------------------------------------------------------------------------*/
+
+
+#footer {
+	margin-top:-10px;
+	clear:both;
+	border-top:1px solid #666;
+	background-color:rgba(1,0,102,1.00);
+	border-radius:5px;
+}
+
+.footer_links {
+	color:white;
+	margin-top:10px ;
+	padding-left:20px;
+	font-size:12px;
+	font-weight:300;
+}
+
+.footer_links:hover {
+	color: #0066ff;
+}
+
+.sig {
+	color:#999;
+	text-align:center;
+	padding-bottom:10px;
+	font-size:10px;
+}
+
+#footer_links {
+	width:20%;
+	display:inline-block;
+
+}
+
+#footer_icons {
+	width:40%;
+	padding:0 40px;
+	display:inline-block;
+}
+
+.footer_icons_fb {
+	padding-left:45%;
+}
+	
+
+
+#fb_root {
+	width:25%;
+	display:inline-block;
+}
+
+
+/*----------------------------------------------------------------------------------------------------------------------------------
+														Removing space spans
+-----------------------------------------------------------------------------------------------------------------------------------*/
+.row-fluid.no-space [class*="span"] {
+  margin-left: 5px;
+}
+
+.no-top {
+	margin-top:-20px;
+}
