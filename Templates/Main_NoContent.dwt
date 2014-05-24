@@ -294,31 +294,27 @@
 	</caption>
 	<tr>
 		<td class="news_pic" ><img src="../pics/news_feed/1a.png" alt="nine"></td>
-		<td  class="news_sec">
-			<p class="mini-title">The Shroom and the Fox</p>
-			<p class="news-content">One day, a fox was walking through the forest. He was hungry, and came upon a mushroom. FOx doesn't like mushrooms. So he walked off hungry</p>
-		</td>
+		<td  class="news_sec"><!-- TemplateBeginEditable name="newsfeed1" -->
+			<!--#includ virtual="../../Includes/news_feed_1.shtml" -->
+		<!-- TemplateEndEditable --></td>
 	</tr>
 	<tr>
 		<td class="news_pic"><img src="../pics/news_feed/2a.png" alt="ten"></td>
-		<td  class="news_sec">
-			<p  class="mini-title">The Shroom and the Fox</p>
-			<p class="news-content">One day, a fox was walking through the forest. He was hungry, and came upon a mushroom. FOx doesn't like mushrooms. So he walked off hungry</p>
-		</td>
+		<td  class="news_sec"><!-- TemplateBeginEditable name="newsfeed2" -->
+			<!--#includ virtual="../../Includes/news_feed_2.shtml" -->
+		<!-- TemplateEndEditable --></td>
 	</tr>
 	<tr>
 		<td class="news_pic"><img src="../pics/news_feed/3a.png" alt="eleven"></td>
-		<td class="news_sec">
-			<p  class="mini-title">The Shroom and the Fox</p>
-			<p class="news-content">One day, a fox was walking through the forest. He was hungry, and came upon a mushroom. FOx doesn't like mushrooms. So he walked off hungry</p>
-		</td>
+		<td class="news_sec"><!-- TemplateBeginEditable name="newsfeed3" -->
+			<!--#includ virtual="../../Includes/news_feed_3.shtml" -->
+		<!-- TemplateEndEditable --></td>
 	</tr>
 	<tr>
 		<td class="news_pic"><img src="../pics/news_feed/4a.png" alt="twelve"></td>
-		<td class="news_sec">
-			<p  class="mini-title">The Shroom and the Fox</p>	
-			<p class="news-content">One day, a fox was walking through the forest. He was hungry, and came upon a mushroom. FOx doesn't like mushrooms. So he walked off hungry</p>
-		</td>
+		<td class="news_sec"><!-- TemplateBeginEditable name="newsfeed4" -->
+			<!--#includ virtual="../../Includes/news_feed_4.shtml" -->
+		<!-- TemplateEndEditable --></td>
 	</tr>
 </table>
 		<br />
