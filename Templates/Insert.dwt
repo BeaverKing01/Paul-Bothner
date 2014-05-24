@@ -5,10 +5,10 @@
 <!-- TemplateEndEditable -->
 </head>
 <body>
-<img style="float:left; padding:0 5px;"src="../pics/news_feed/1a.png">
-<p style="position:fixed; font-family:verdana; font-size:11px; line-height:14px; font-weight:bold; text-align:center; margin-top:-10px; background-color:rgba(103,102,204,1.00);padding:5px 3px 2px 3px; width:300px"><!-- TemplateBeginEditable name="EditRegion2" -->The Shroom and the fox<!-- TemplateEndEditable --></p>
+<!-- TemplateBeginEditable name="EditRegion4" --><img style="float:left; padding:0 5px;"src="../pics/news_feed/1a.png"><!-- TemplateEndEditable -->
+<p style="position:fixed; font-family:verdana; font-size:11px; line-height:14px; font-weight:bold; text-align:center; margin-top:-11px; background-color:rgba(103,102,204,1.00);padding:5px 3px 2px 3px; width:300px"><!-- TemplateBeginEditable name="EditRegion2" -->The Shroom and the fox<!-- TemplateEndEditable --></p>
 
-<p style="font-family: verdana; font-size: 11px; line-height:14px;padding:14px"><!-- TemplateBeginEditable name="EditRegion3" -->One day, a fox was walking through the forest. He was hungry, and came upon a mushroom. FOx doesn't like mushrooms. So he walked off hungryOne day, a fox was walking through the forest. He was hungry, and came upon a mushroom. FOx doesn't like mushrooms. So he walked off hungry<!-- TemplateEndEditable --></p>
+<p style="font-family: verdana; font-size: 11px; line-height:14px;padding-top:7px"><!-- TemplateBeginEditable name="EditRegion3" -->One day, a fox was walking through the forest. He was hungry, and came upon a mushroom. Fox doesn't like mushrooms, so he walked off hungry <!-- TemplateEndEditable --></p>
 
 </body>
 </html>	
