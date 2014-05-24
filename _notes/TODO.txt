@@ -4,9 +4,10 @@ footer informataion instead
 
 TOGET:
 Timothy Web HTML form series
+EDGE ANIMATE 30 day trial
 
 TODO:
-
+N.B!!!!Look into Dreamweaver Slider!!!!!
 ****************PUSH COMMITS TO GITHUB REPO********************
 
 font awesome - learn and use
@@ -32,7 +33,7 @@ ___Service Department___
 ___Mailing List___
 
 ___Contact___
-
+Look into foxyForm or a similar PAID service. Read more about building contact forms.
 
 				_____________STUFF I NEED_________
 
