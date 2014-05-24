@@ -433,8 +433,8 @@ z-index:30;
 	min-width:315px;
 }
 
-/*---------------------------------------------------------------------------------------------------------------------------------------                               						    Start: BOTHNER specific CSS 
-----------------------------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------------------------------------------------                               						    Start: BOTHNER specific CSS 
+--------------------------------------------------------------------------------------------------------------------------------------*/
 .content {
   padding: 0px 0;
 }
@@ -559,9 +559,60 @@ caption h2 {
 	padding:5px;
 }
 
-.embed {
-	margin-top:10px;
+.staff_pics {
+	background-color:rgba(103,102,204,1.00);
+	
 }
+
+.staff_pic img {
+	width:140px;
+	max-height:90px;
+	padding:5px 5px 0 5px;
+}
+
+.staff_pic p {
+	text-align:center;
+	margin-top:-8px;
+	font-weight:bold;
+}
+
+.text-left {
+	padding-left:15px;
+}
+
+.text-left a {
+	color:black;
+}
+
+.text-left a:hover {
+	text-decoration:none;
+}	
+	
+.shop-time {
+	font-weight:bold;
+	text-decoration:underline;
+	font-size:14px;
+}
+
+.trading-hours {
+	margin-left:15px;
+}
+
+.trading-hours h2 {
+	color:white;
+	background-color:rgba(1,0,102,1.00);
+	text-align:center;
+	font-size:25px;
+	margin-top:-5px;
+	line-height:30px;
+}
+
+.trading-hours p {
+	padding:0 5px;
+}
+
+
+
 /*----------------------------------------------------------------------------------------------------------------------------------
 													    Footer
 ----------------------------------------------------------------------------------------------------------------------------------*/
@@ -646,59 +697,6 @@ caption h2 {
 /*----------------------------------------------------------------------------------------------------------------------------------
 														PRAC
 -----------------------------------------------------------------------------------------------------------------------------------*/
-.staff_pics {
-	background-color:rgba(103,102,204,1.00);
-	
-}
-
-.staff_pic img {
-	width:140px;
-	max-height:90px;
-	padding:5px 5px 0 5px;
-}
-
-.staff_pic p {
-	text-align:center;
-	margin-top:-8px;
-	font-weight:bold;
-}
-
-.text-left {
-	padding-left:15px;
-}
-
-.text-left a {
-	color:black;
-}
-
-.text-left a:hover {
-	text-decoration:none;
-}	
-	
-.shop-time {
-	font-weight:bold;
-	text-decoration:underline;
-	font-size:14px;
-}
-
-.trading-hours {
-	margin-left:15px;
-}
-
-.trading-hours h2 {
-	color:white;
-	background-color:rgba(1,0,102,1.00);
-	text-align:center;
-	font-size:25px;
-	margin-top:-5px;
-	line-height:30px;
-}
-
-.trading-hours p {
-	padding:0 5px;
-}
-
-
 /*----------------------------------------------------------------------------------------------------------------------------------
 														Removing space spans
 -----------------------------------------------------------------------------------------------------------------------------------*/
