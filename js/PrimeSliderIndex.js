@@ -22,7 +22,7 @@ setTimeout("swapImage0()",300000);
 var i = 0; var path = new Array(); 
 
 // LIST OF IMAGES 
-path[0] = { img:"pics/banner/1a.png", link: "1"};
+path[0] = { img:"pics/banner/1a.png", link: "html/banner_features/Prime_banner.html"};
 path[1] = { img:"pics/banner/1b.png", link: "2"};
 path[2] = { img:"pics/banner/1c.png", link: "3"};
 path[3] = { img:"pics/banner/1d.png", link: "4"};
@@ -40,7 +40,7 @@ function swapImage()
 var k = 0; var path2 = new Array(); 
 
 // LIST OF IMAGES WITH PATHS
-path2[0] = { img:"pics/banner/2a.png", link: "5"};
+path2[0] = { img:"pics/banner/2a.png", link: "html/banner_features/Prime_banner.html"};
 path2[1] = { img:"pics/banner/2b.png", link: "6"};
 path2[2] = { img:"pics/banner/2c.png", link: "7"};
 path2[3] = { img:"pics/banner/2d.png", link: "8"};
@@ -59,7 +59,7 @@ function swapImage2()
 var l = 0; var path3 = new Array(); 
 
 // LIST OF IMAGES 
-path3[0] = { img:"pics/banner/3a.png", link: "9"};
+path3[0] = { img:"pics/banner/3a.png", link: "html/banner_features/Prime_banner.html"};
 path3[1] = { img:"pics/banner/3b.png", link: "10"};
 path3[2] = { img:"pics/banner/3c.png", link: "11"};
 path3[3] = { img:"pics/banner/3d.png", link: "12"};
@@ -77,7 +77,7 @@ setTimeout(swapImage3,6000);
 var m = 0; var path4 = new Array(); 
 
 // LIST OF IMAGES 
-path4[0] = { img:"pics/banner/4a.png", link: "13"}; 
+path4[0] = { img:"pics/banner/4a.png", link: "html/banner_features/Prime_banner.html"}; 
 path4[1] = { img:"pics/banner/4b.png", link: "14"}; 
 path4[2] = { img:"pics/banner/4c.png", link: "15"};
 path4[3] = { img:"pics/banner/4d.png", link: "16"};
@@ -95,7 +95,7 @@ setTimeout(swapImage4,6000);
 var n = 0; var path5 = new Array(); 
 
 // LIST OF IMAGES 
-path5[0] = { img:"pics/banner/5a.png", link: "17"}; 
+path5[0] = { img:"pics/banner/5a.png", link: "html/banner_features/Prime_banner.html"}; 
 path5[1] = { img:"pics/banner/5b.png", link: "18"};
 path5[2] = { img:"pics/banner/5c.png", link: "19"};
 path5[3] = { img:"pics/banner/5d.png", link: "20"};

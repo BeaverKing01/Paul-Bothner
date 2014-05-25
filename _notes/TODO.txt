@@ -1,3 +1,8 @@
+Search functionality - do this last - like litrally last
+First - discuss options with Carel/Newton
+re:web server functionality vs Google paid (google paid allows users to search both the retail as well as the etial stores in one click)
+
+
 IMPORTANT:
 Our legacy/PAIA/Store times/disclaimer shoud NOT be under resources - move to 
 footer informataion instead
@@ -5,6 +10,7 @@ footer informataion instead
 TOGET:
 Timothy Web HTML form series
 EDGE ANIMATE 30 day trial
+SEO metatags/SE discription from Newton
 
 TODO:
 N.B!!!!Look into Dreamweaver Slider!!!!!
@@ -13,29 +19,62 @@ N.B!!!!Look into Dreamweaver Slider!!!!!
 font awesome - learn and use
 find up/down arrows
 reorder CSS
+FinYou link for retail page
+Rewrite both JS files for banner links
+Follow-Up re staff photo's
+
+====James===
+Install dreamweaver
+Install localhost testing server and set-up
 
 ___MAIN___
 Community Alliance Pics Overlay
-SSI News Feed
-Search functionality - do this last
+Search functionality - do this last - like litrally last
+Match FB and Twitter links for head and footer
+Main all "shoponline" <a> to _blank
+Product span min height
+Link Read More and Buy Now Buttons
+
+
+___Latest News___
+SSI functionality done, but ask about a news page with more items
 
 ___Resources____
+Done as per Newton's list, but I'm not happy with it. Chat with Carel re:items
 
 ___Branches____
 Link Branches Overview to Contact
 Map iframe for google maps
 populate each branch - James
 
+___Products___
+Add footer pics
+
+___Banner Click through___
+Done - ready for sign off
+
 ___Our Friends___
+
 
 ___Service Department___
 
 ___Mailing List___
+Get Evalytic plug-in from Newton
 
 ___Contact___
 Look into foxyForm or a similar PAID service. Read more about building contact forms.
+Thimothy HTML form series
 
-				_____________STUFF I NEED_________
+___Footer___
+Activate links
+Information should be resources - Suggest adding all to tabs or accordion
+Credit Options - must get content for this
+
+___Warwick Levey Contact___
+Add to footer
+
+
+	_____________STUFF I NEED_________
 
 Finance it and we can find it buttons
 Suburbs for Jean Village and Glenwood
