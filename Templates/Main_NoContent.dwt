@@ -52,10 +52,10 @@
   <div class="logo-non hidden-tablet hidden-phone">
   	<img class="prime1" src="../pics/header_ph_main.png" usemap="#Map" alt="one">
     <map name="Map">
-      <area shape="rect" coords="416,128,504,160" href="http://www.bothnermusic.co.za" alt="Shop Online">
-    <area shape="rect" coords="508,129,594,159" href="../2" alt="Finsnce It">
-    <area shape="rect" coords="602,131,626,156" href="https://www.facebook.com/groups/paul.bothner.music" alt="Facebook Link">
-    <area shape="rect" coords="630,130,652,155" href="https://twitter.com/PBothnerMusic" alt="Twitter Link">
+      <area shape="rect" coords="416,128,504,160" href="http://www.bothnermusic.co.za" alt="Shop Online"  target="_blank">
+    <area shape="rect" coords="508,129,594,159" href="../2" alt="Finsnce It"  target="_blank">
+    <area shape="rect" coords="602,131,626,156" href="https://www.facebook.com/groups/paul.bothner.music" alt="Facebook Link"  target="_blank">
+    <area shape="rect" coords="630,130,652,155" href="https://twitter.com/PBothnerMusic" alt="Twitter Link" target="_blank">
 	</map>
     
    
@@ -93,7 +93,7 @@
               <ul class="nav pull-right">
                     <li><a href="../Index.html">Home</a></li>
                 <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Resources<b class="caret"></b></a>
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us<b class="caret"></b></a>
                   <ul class="dropdown-menu">
                     <li><a href="../html/resources/shop_hours.html">Shop Hours</a></li>
                     <li><a href="../html/resources/our_legacy.html">Our Legacy</a></li>
@@ -120,8 +120,8 @@
                     <li class="nav-header">Glenwood</li>
                     <li><a href="../html/branches/glenwood.html">Glenwood Village Music</a></li>
                     <li class="nav-header">Country Wide</li>
-                    <li><a href="../html/branches/workshop.html">Workshop</a></li>
-                    <li><a href="htttp://www.bothnermusic.co.za">Online Store</a></li>
+                    <li><a href="../html/branches/workshop.html">Service Department</a></li>
+                    <li><a href="http://www.bothnermusic.co.za/" target="_blank">Online Store</a></li>
                   </ul>
                 </li>
                   <li class="dropdown">
@@ -182,7 +182,7 @@
               <ul class="nav pull-right">
                     <li><a href="../Index.html">Home</a></li>
                 <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Resources<b class="caret"></b></a>
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us<b class="caret"></b></a>
                   <ul class="dropdown-menu">
                     <li><a href="../html/resources/shop_hours.html">Shop Hours</a></li>
                     <li><a href="../html/resources/our_legacy.html">Our Legacy</a></li>
@@ -209,8 +209,8 @@
                     <li class="nav-header">Glenwood</li>
                     <li><a href="../html/branches/glenwood.html">Glenwood Village Music</a></li>
                     <li class="nav-header">Country Wide</li>
-                    <li><a href="../html/branches/workshop.html">Workshop</a></li>
-                    <li><a href="htttp://www.bothnermusic.co.za">Online Store</a></li>
+                    <li><a href="../html/branches/workshop.html">Service Department</a></li>
+                    <li><a href="http://www.bothnermusic.co.za/" target="_blank">Online Store</a></li>
                   </ul>
                 </li>
                   <li class="dropdown">

@@ -6,21 +6,17 @@ re:web server functionality vs Google paid (google paid allows users to search b
 
 
 IMPORTANT:
-Our legacy/PAIA/Store times/disclaimer shoud NOT be under resources - move to 
-footer informataion instead
+#
 
 TOGET:
 Timothy Web HTML form series
-EDGE ANIMATE 30 day trial
 SEO metatags/SE discription from Newton
 JS Tuts
 
 TODO:
 font awesome - learn and use
 find up/down arrows
-reorder CSS
 FinYou link for retail page
-Rewrite both JS files for banner links
 Follow-Up re staff photo's
 Google analytics
 
@@ -40,8 +36,8 @@ Link Read More and Buy Now Buttons
 ___Latest News___
 SSI functionality done, but ask about a news page with more items
 
-___Resources____
-Done as per Newton's list, but I'm not happy with it. Chat with Carel re:items
+___About Us(was resources)____
+
 
 ___Branches____
 Link Branches Overview to Contact
@@ -52,7 +48,7 @@ ___Products___
 Add footer pics
 
 ___Banner Click through___
-Done - ready for sign off
+
 
 ___Our Friends___
 
@@ -63,12 +59,11 @@ ___Mailing List___
 Get Evalytic plug-in from Newton
 
 ___Contact___
-Look into foxyForm or a similar PAID service. Read more about building contact forms.
-Thimothy HTML form series
+Current Site uses foxyform - do the same with new site
 
 ___Footer___
 Activate links
-Information should be resources - Suggest adding all to tabs or accordion
+Information -should that read about us as well?
 Credit Options - must get content for this
 
 ___Warwick Levey Contact___

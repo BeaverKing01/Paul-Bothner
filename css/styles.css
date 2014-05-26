@@ -10,7 +10,7 @@
 .container-fluid-left {
   margin-left:-10px;
   max-width: 710px;
-  min-height:800px;
+  min-height:780px;
 }
 
 .container-fluid-right {
@@ -288,7 +288,7 @@ top: 52px !important;
 left: 140px;
 width: 40px;
 height: 40px;
-margin-top: -38px !important;
+margin-top: -45px !important;
 font-size: 30px !important;
 font-weight: 100;
 line-height: 44px !important;
@@ -314,7 +314,7 @@ color:black;
 
 .button-bottom {
 position: absolute;
-top: 470px !important;
+top: 463px !important;
 left: 140px;
 width: 40px;
 height: 40px;
@@ -435,6 +435,20 @@ z-index:30;
 
 /*-------------------------------------------------------------------------------------------------------------------------------------                               						    Start: BOTHNER specific CSS 
 --------------------------------------------------------------------------------------------------------------------------------------*/
+.div_title {
+	color:white;
+	background-color:rgba(1,0,102,1.00);
+	text-align:center;
+	font-size:18px;
+	margin-top:-5px;
+	line-height:20px;
+}
+
+.map-fit {
+	width:250px;
+	margin-top:10px;
+}
+
 .content {
   padding: 0px 0;
 }
@@ -452,16 +466,15 @@ z-index:30;
 .slider {
 	border-bottom:  1px solid #ddd;
 }
-.thumbnail .caption {
-  color: white;
-  background-color:rgba(1,0,102,1.00);
-}
 
 .thumbnail .caption p {
-	font-size:25px;
-	padding:5px 0;
+	
+	color:white;
+	background-color:rgba(1,0,102,1.00);
 	text-align:center;
-	font-weight:700;
+	font-size:18px;
+	margin-top:-5px;
+	line-height:20px;
 }
 
 .thumbnail .sales {
@@ -487,7 +500,7 @@ z-index:30;
 
 
 .news_feed p {
-	font-size:11px;
+	font-size:10px;
 	margin-top:-7px;
 	color:black;
 	padding-left:5px
@@ -500,9 +513,13 @@ caption {
 }
 
 caption h2 {
-	font-size:25px;
+
 	color:white;
-	margin:-5px;
+	background-color:rgba(1,0,102,1.00);
+	text-align:centre;
+	font-size:18px;
+	line-height:20px;
+	margin:1px;
 }
 
 .news_feed td {
@@ -515,6 +532,10 @@ caption h2 {
 	 color:black;
 	 text-align:center;
  }
+
+.news-content {
+	font-size:5px;
+}
 
 .news_pic {
 	padding-left:5px;
@@ -531,12 +552,12 @@ caption h2 {
 
 @media screen and (-webkit-min-device-pixel-ratio:0)
 { 
-    .shop_online {margin-top:5px;} 
+    .shop_online {margin-top:8px;} 
 }
 
 
 .buttons {
-	margin-top:15px;
+	margin-top:12px;
 }
 
  .news_sec {
@@ -602,10 +623,12 @@ caption h2 {
 	color:white;
 	background-color:rgba(1,0,102,1.00);
 	text-align:center;
-	font-size:25px;
+	font-size:18px;
 	margin-top:-5px;
-	line-height:30px;
+	line-height:20px;
 }
+
+
 
 .trading-hours p {
 	padding:0 5px;
@@ -720,5 +743,5 @@ caption h2 {
 }
 
 .no-top {
-	margin-top:-17px;
+	margin-top:-12px;
 }
