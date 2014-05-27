@@ -38,11 +38,10 @@ SSI functionality done, but ask about a news page with more items
 ___About Us(was resources)____
 
 
+
 ___Branches____
-Link Branches Overview to Contact
 Map iframe for google maps
 populate each branch - James
-replace up/down arrows for staff carousel
 
 ___Products___
 Add footer pics
@@ -59,8 +58,6 @@ ___Mailing List___
 Get Evalytic plug-in from Newton
 
 ___Contact___
-Current Site uses foxyform - do the same with new site
-
 559570&sec_hash=2d9cf7e24cb
 
 ___Footer___

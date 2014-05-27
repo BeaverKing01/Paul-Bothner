@@ -381,14 +381,12 @@ z-index:30;
   top: 100%;
 }
 
-.carousel.vertical .item {
-    left: 0;
-}​
 
 .bottom_arrow {
 	position:absolute;
 	margin-top:200px;
 }
+
 .staff_pics {
 	background-color:rgba(103,102,204,1.00);
 	
@@ -521,7 +519,7 @@ caption h2 {
 
 	color:white;
 	background-color:rgba(1,0,102,1.00);
-	text-align:centre;
+	text-align:center;
 	font-size:18px;
 	line-height:20px;
 	margin:1px;
