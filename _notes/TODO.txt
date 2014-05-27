@@ -14,9 +14,10 @@ SEO metatags/SE discription from Newton
 
 
 TODO:
+===========================
+========FINYOU==============
+===========================
 
-
-FinYou link for retail page
 Follow-Up re staff photo's
 Google analytics
 
@@ -30,6 +31,7 @@ Match FB and Twitter links for head and footer
 Main all "shoponline" <a> to _blank
 Product span min height
 Link Read More and Buy Now Buttons
+Is each community alignment pic a static pic or a clickable link?
 
 
 ___Latest News___
