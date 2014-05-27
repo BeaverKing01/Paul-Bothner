@@ -6,7 +6,7 @@ re:web server functionality vs Google paid (google paid allows users to search b
 
 
 IMPORTANT:
-#
+Add links to each INDEX page in each subfolder
 
 TOGET:
 Timothy Web HTML form series
