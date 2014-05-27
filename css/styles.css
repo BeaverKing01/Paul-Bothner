@@ -284,12 +284,12 @@
 /* --------------------------------------------Staff Pics Carousel------------------------------------------------------*/
 .button-top {
 position: absolute;
-top: 55px !important;
+top: 57px !important;
 left: 140px;
 width: 40px;
 height: 40px;
 margin-top: -45px !important;
-font-size: 20px !important;
+font-size: 25px !important;
 font-weight: 100;
 line-height: 44px !important;
 text-align: center;
@@ -315,12 +315,12 @@ color:black;
 
 .button-bottom {
 position: absolute;
-top: 455px !important;
+top: 463px !important;
 left: 140px;
 width: 40px;
 height: 40px;
 margin-top: -38px !important;
-font-size: 20px !important;
+font-size: 25px !important;
 font-weight: 100;
 line-height: 44px !important;
 text-align: center;
@@ -382,11 +382,6 @@ z-index:30;
 }
 
 
-.bottom_arrow {
-	position:absolute;
-	margin-top:200px;
-}
-
 .staff_pics {
 	background-color:rgba(103,102,204,1.00);
 	
@@ -395,7 +390,7 @@ z-index:30;
 .staff_pic-c-top img {
 	width:160px;
 	height:90px;
-	padding:20px 70px 0;
+	padding:30px 70px 0;
 }
 .staff_pic-c img {
 	width:160px;
@@ -405,7 +400,7 @@ z-index:30;
 .staff_pic-c-bottom img {
 	width:160px;
 	height:90px;
-	padding:0 70px 0;
+	padding:0 70px;
 }
 
 .staff_pic-c-top p {
@@ -423,7 +418,7 @@ z-index:30;
 .staff_pic-c-bottom p {
 	text-align:center;
 	margin-top:-8px;
-	margin-bottom:20px;
+	margin-bottom:30px;
 	font-weight:bold;
 	color:black;
 }
@@ -436,6 +431,12 @@ z-index:30;
 	font-size:8px;
 	line-height:0px;
 }
+
+.staff_carousel_title {
+	margin-bottom:0px;
+}
+
+
 /*-------------------------------------------------------------------------------------------------------------------------------------                               						    Start: BOTHNER specific CSS 
 --------------------------------------------------------------------------------------------------------------------------------------*/
 .home-icon {
@@ -542,9 +543,6 @@ caption h2 {
 	 text-align:center;
  }
 
-.news-content {
-	font-size:5px;
-}
 
 .news_pic {
 	padding-left:5px;
@@ -555,22 +553,22 @@ caption h2 {
 }
 
 .shop_online {
-	margin-top:22px;
+	margin-top:8px;
 	height:120px;
 }
 
 @media screen and (-webkit-min-device-pixel-ratio:0)
 { 
-    .shop_online {margin-top:8px;} 
+    .news-chrome-fix {margin-right:-0.5px;} 
 }
 
 
 .buttons {
-	margin-top:12px;
+	margin-top:15px;
 }
 
  .news_sec {
-	 height:105px;
+	 height:108.5px;
  }
 
 .branch_headings_top {

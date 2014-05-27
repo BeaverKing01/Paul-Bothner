@@ -42,6 +42,7 @@ ___About Us(was resources)____
 
 
 ___Branches____
+Clean up the staff slider carousel
 Map iframe for google maps
 populate each branch - James
 
