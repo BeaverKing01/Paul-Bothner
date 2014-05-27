@@ -28,9 +28,7 @@ Install localhost testing server and set-up
 ___MAIN___
 Community Alliance Pics Overlay
 Match FB and Twitter links for head and footer
-Main all "shoponline" <a> to _blank
 Product span min height
-Link Read More and Buy Now Buttons
 Is each community alignment pic a static pic or a clickable link?
 
 
@@ -42,7 +40,6 @@ ___About Us(was resources)____
 
 
 ___Branches____
-Clean up the staff slider carousel
 Map iframe for google maps
 populate each branch - James
 
