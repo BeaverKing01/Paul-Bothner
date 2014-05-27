@@ -143,7 +143,7 @@
                     </ul>
                 </li>
 
-                <li><a href="../html/other/service.html">Service Department</a></li>
+                <li><a href="../html/branches/workshop.html">Service Department</a></li>
                 <li><a href="../html/other/mailing_list.html">Mailing List</a></li>
                 <li><a href="../html/other/contact.html">Contact</a></li>
                 <li>            <div class="search-box">
@@ -232,7 +232,7 @@
                     </ul>
                 </li>
 
-                <li><a href="../html/other/service.html">Service Department</a></li>
+                <li><a href="../html/branches/workshop.html">Service Department</a></li>
                 <li><a href="../html/other/mailing_list.html">Mailing List</a></li>
                 <li><a href="../html/other/contact.html">Contact</a></li>
                 <li>            <div class="search-box">
@@ -348,10 +348,10 @@
 
 	<div id="footer">
 		<div id="footer_links">
-			<a href="#"><p class="footer_links">Join Mailing List</p></a>
-			<a href="#"><p class="footer_links">Contact Us</p></a>
-			<a href="#"> <p class="footer_links">Information</p></a>
-			<a href="#"> <p class="footer_links">Secure Shopping</p></a>
+			<a href="../html/other/mailing_list.html"><p class="footer_links">Join Mailing List</p></a>
+			<a href="../html/other/contact.html"><p class="footer_links">Contact Us</p></a>
+			<a href="../html/resources/index.html"> <p class="footer_links">About US</p></a>
+			<a href="http://www.bothnermusic.co.za "  target="_blank"> <p class="footer_links">Secure Online Shopping</p></a>
 			<a href="#"> <p class="footer_links">Credit Options</p></a>
 			<br />
 		</div>      

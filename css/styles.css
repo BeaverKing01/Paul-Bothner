@@ -284,12 +284,12 @@
 /* --------------------------------------------Staff Pics Carousel------------------------------------------------------*/
 .button-top {
 position: absolute;
-top: 52px !important;
+top: 55px !important;
 left: 140px;
 width: 40px;
 height: 40px;
 margin-top: -45px !important;
-font-size: 30px !important;
+font-size: 20px !important;
 font-weight: 100;
 line-height: 44px !important;
 text-align: center;
@@ -300,26 +300,27 @@ color:black;
 
 .button-top:hover {
 	text-decoration:none;
-	color:black;
+	color:white;
 	opacity: 0.7;
+	
 
 }
 
 .button-bottom:hover {
 	text-decoration:none;
-	color:black;
+	color:white;
 	opacity: 0.7;
 
 }
 
 .button-bottom {
 position: absolute;
-top: 463px !important;
+top: 455px !important;
 left: 140px;
 width: 40px;
 height: 40px;
 margin-top: -38px !important;
-font-size: 30px !important;
+font-size: 20px !important;
 font-weight: 100;
 line-height: 44px !important;
 text-align: center;
@@ -395,17 +396,17 @@ z-index:30;
 
 .staff_pic-c-top img {
 	width:160px;
-	height:95px;
+	height:90px;
 	padding:20px 70px 0;
 }
 .staff_pic-c img {
 	width:160px;
-	height:95px;
+	height:90px;
 	padding:0 70px 0;
 }
 .staff_pic-c-bottom img {
 	width:160px;
-	height:95px;
+	height:90px;
 	padding:0 70px 0;
 }
 
@@ -433,6 +434,10 @@ z-index:30;
 	min-width:315px;
 }
 
+.caro-bottom {
+	font-size:8px;
+	line-height:0px;
+}
 /*-------------------------------------------------------------------------------------------------------------------------------------                               						    Start: BOTHNER specific CSS 
 --------------------------------------------------------------------------------------------------------------------------------------*/
 .div_title {
@@ -441,7 +446,7 @@ z-index:30;
 	text-align:center;
 	font-size:18px;
 	margin-top:-5px;
-	line-height:20px;
+	line-height:21px;
 }
 
 .map-fit {
@@ -638,6 +643,17 @@ caption h2 {
 	margin-left:10px;
 	margin-top:4px;
 	margin-bottom:10px;
+}
+
+.foxyform {
+	height:650px;
+	padding-top:50px;
+	padding-left:150px;
+}
+
+.foxy {
+	width:600px;
+	margin:24px auto 0;
 }
 
 /*----------------------------------------------------------------------------------------------------------------------------------

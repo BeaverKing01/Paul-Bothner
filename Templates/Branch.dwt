@@ -10,11 +10,16 @@
     <script type="text/javascript" src="../js/PrimeSliderIndex.js"></script>
     <!-- TemplateEndEditable -->
 	
-<link rel="icon" type="image/png" href="../pics/favicon/favicon.png" />
-<!-- Bootstrap -->
+	
+	<!--Font Awesome-->
+	<link rel="stylesheet" href="../font/css/font-awesome.min.css">
+	<link rel="icon" type="image/png" href="../pics/favicon/favicon.png" />
+	<!-- Bootstrap -->
     <link href="../css/bootstrap.css" rel="stylesheet">
     <!-- Bothner specific CSS -->
     <link href="../css/styles.css" rel="stylesheet">
+	
+
 	
 	
     
@@ -137,9 +142,9 @@
                     </ul>
                 </li>
 
-                <li><a href="../html/service.html">Service Department</a></li>
+                <li><a href="../html/branches/workshop.html">Service Department</a></li>
                 <li><a href="../html/mailing_list.html">Mailing List</a></li>
-                <li><a href="../html/contact.html">Contact</a></li>
+                <li><a href="../html/other/contact.html">Contact</a></li>
                 <li>            <div class="search-box">
                                 <form class="search-form" action="#">
                          <input type="text" class="search-input" name="search_text" placeholder="Search..." maxlength="140">
@@ -226,9 +231,9 @@
                     </ul>
                 </li>
 
-                <li><a href="../html/service.html">Service Department</a></li>
+                <li><a href="../html/branches/workshop.html">Service Department</a></li>
                 <li><a href="../html/mailing_list.html">Mailing List</a></li>
-                <li><a href="../html/contact.html">Contact</a></li>
+                <li><a href="../html/other/contact.html">Contact</a></li>
                 <li>            <div class="search-box">
                                 <form class="search-form" action="#">
                          <input type="text" class="search-input" name="search_text" placeholder="Search..." maxlength="140">
@@ -412,25 +417,26 @@
 							<br />
 						</div>
 					</div>
+					</ul>
 				</div>
 				</div>
-			</ul>
+			
             <!-- TemplateEndEditable -->
 			<!--Footer-->
 
 	<div id="footer">
 		<div id="footer_links">
-			<a href="#"><p class="footer_links">Join Mailing List</p></a>
-			<a href="#"><p class="footer_links">Contact Us</p></a>
-			<a href="#"> <p class="footer_links">Information</p></a>
-			<a href="#"> <p class="footer_links">Secure Shopping</p></a>
-			<a href="#"> <p class="footer_links">Credit Options</p></a>
+			<a href="../html/other/mailing_list.html"><p class="footer_links">Join Mailing List</p></a>
+			<a href="../html/other/contact.html"><p class="footer_links">Contact Us</p></a>
+			<a href="../html/resources/index.html"> <p class="footer_links">About US</p></a>
+			<a href="http://www.bothnermusic.co.za" target="_blank"> <p class="footer_links">Secure Online Shopping</p></a>
+			<a href="#"> <p class="footer_links">Finance It</p></a>
 			<br />
 		</div>      
 	<div id="footer_icons">
 		<a href="#"><img class="footer_icons_fb" src="../pics/icons/facebook_32.png" alt="facebooklogo"></a>
 		<a href="#"><img class="footer_icons_tw" src="../pics/icons/twitter_32.png"  alt="twitterlogo"></a>
-			<p class="sig">All rights reserved. Built by Warwick Levey</p>
+			<p class="sig">All rights reserved. Built by <a href="#">Warwick Levey</a></p>
 	</div>
 	<div id="fb_root">
 <div id="fb-root"></div>

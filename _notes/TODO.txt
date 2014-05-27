@@ -11,11 +11,11 @@ Add links to each INDEX page in each subfolder
 TOGET:
 Timothy Web HTML form series
 SEO metatags/SE discription from Newton
-JS Tuts
+
 
 TODO:
-font awesome - learn and use
-find up/down arrows
+
+
 FinYou link for retail page
 Follow-Up re staff photo's
 Google analytics
@@ -26,7 +26,6 @@ Install localhost testing server and set-up
 
 ___MAIN___
 Community Alliance Pics Overlay
-Search functionality - do this last - like litrally last
 Match FB and Twitter links for head and footer
 Main all "shoponline" <a> to _blank
 Product span min height
@@ -43,6 +42,7 @@ ___Branches____
 Link Branches Overview to Contact
 Map iframe for google maps
 populate each branch - James
+replace up/down arrows for staff carousel
 
 ___Products___
 Add footer pics
@@ -61,10 +61,11 @@ Get Evalytic plug-in from Newton
 ___Contact___
 Current Site uses foxyform - do the same with new site
 
+559570&sec_hash=2d9cf7e24cb
+
 ___Footer___
-Activate links
-Information -should that read about us as well?
-Credit Options - must get content for this
+Activate link FinYou Links
+Create Information Index
 
 ___Warwick Levey Contact___
 Add <a> to  footer
