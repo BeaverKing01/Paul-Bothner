@@ -52,7 +52,7 @@
   	<img class="prime1" src="../pics/header_ph_main.png" usemap="#Map" alt="one">
     <map name="Map">
       <area shape="rect" coords="416,128,504,160" href="http://www.bothnermusic.co.za" alt="Shop Online" target="_blank">
-    <area shape="rect" coords="508,129,594,159" href="../2" alt="Finsnce It"  target="_blank">
+    <area shape="rect" coords="508,129,594,159" href="https://www.finyou.com/bothner/" alt="Finsnce It"  target="_blank">
     <area shape="rect" coords="602,131,626,156" href="https://www.facebook.com/groups/paul.bothner.music" alt="Facebook Link"  target="_blank">
     <area shape="rect" coords="630,130,652,155" href="https://twitter.com/PBothnerMusic" alt="Twitter Link"  target="_blank">
 	</map>
@@ -370,7 +370,7 @@
 			</div>
       		
       		<div class="row-fluid buttons">
-		<a href="#"><img class="span12" src="../pics/buttons/finance.png" alt="FinYou Financing availible"></a>
+		<a href="https://www.finyou.com/bothner/" target="_blank"><img class="span12" src="../pics/buttons/finance.png" alt="FinYou Financing availible"></a>
 		<a href="../html/other/we_can_get_it.html"><img class="span12" src="../pics/buttons/find.png" alt="sixteen" style="margin-left:8.5px;"></a>
 		</div>
 		
@@ -432,7 +432,7 @@
 			<a href="../html/other/contact.html"><p class="footer_links">Contact Us</p></a>
 			<a href="../html/resources/index.html"> <p class="footer_links">About US</p></a>
 			<a href="http://www.bothnermusic.co.za" target="_blank"> <p class="footer_links">Secure Online Shopping</p></a>
-			<a href="#"> <p class="footer_links">Finance It</p></a>
+			<a href="https://www.finyou.com/bothner/" target="_blank"> <p class="footer_links">Finance It</p></a>
 			<br />
 		</div>      
 	<div id="footer_icons">
