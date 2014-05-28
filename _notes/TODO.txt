@@ -6,17 +6,14 @@ re:web server functionality vs Google paid (google paid allows users to search b
 
 
 IMPORTANT:
-Add links to each INDEX page in each subfolder
+soft 404 pages - double check
 
 TOGET:
-Timothy Web HTML form series
 SEO metatags/SE discription from Newton
 
 
 TODO:
-===========================
-========FINYOU==============
-===========================
+
 
 Follow-Up re staff photo's
 Google analytics
@@ -29,7 +26,7 @@ ___MAIN___
 Community Alliance Pics Overlay
 Match FB and Twitter links for head and footer
 Product span min height
-Is each community alignment pic a static pic or a clickable link?
+Hover effect on buttons to highlight cliackable area
 
 
 ___Latest News___
@@ -61,7 +58,6 @@ ___Contact___
 559570&sec_hash=2d9cf7e24cb
 
 ___Footer___
-Activate link FinYou Links
 Create Information Index
 
 ___Warwick Levey Contact___

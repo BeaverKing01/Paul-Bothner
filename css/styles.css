@@ -494,7 +494,6 @@ z-index:30;
 .widget-footer {
   padding: 6% 3%;
   background-color: #EEEEEC;
-  border-top: 1px solid #DDD;
 }
 .widget-footer p {
   margin: -5px 0;
@@ -549,7 +548,7 @@ caption h2 {
 }
 
 .sales-bg {
-	margin:-10px 0;  
+	margin:-10px 0;
 }
 
 .shop_online {
@@ -564,7 +563,7 @@ caption h2 {
 
 
 .buttons {
-	margin-top:15px;
+	margin-top:20px;
 }
 
  .news_sec {
@@ -739,6 +738,28 @@ caption h2 {
 .phone {
 	color:black;
 }
+
+.our_friends img {
+	max-height:135px;
+	width:217px;
+}
+
+.span5a {
+	max-width:225px;
+}
+
+.friends_div {
+	margin:-10px 0;
+	height:140px;
+	background-color:#EEEEEC;  
+}
+
+.long {
+	max-width:150px;
+	padding-left:33.5px;
+}
+
+
 /*----------------------------------------------------------------------------------------------------------------------------------
 														Featured Info Page
 -----------------------------------------------------------------------------------------------------------------------------------*/
@@ -766,4 +787,13 @@ caption h2 {
 
 .no-left {
 	margin-left:15px;
+}
+
+.no-bottom {
+	margin-bottom:0px;
+}
+
+.topping {
+	margin-top:16px;
+	margin-left:-5px;
 }
