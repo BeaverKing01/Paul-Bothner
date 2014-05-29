@@ -740,26 +740,44 @@ caption h2 {
 }
 
 .our_friends img {
-	max-height:135px;
-	width:217px;
+	max-height:120px;
+	width:202px;
 }
 
 .span5a {
-	max-width:225px;
+	max-width:210px;
+	margin:0 5px 0 5px;
+	padding-left:5px;
 }
 
 .friends_div {
 	margin:-10px 0;
-	height:140px;
-	background-color:#EEEEEC;  
+	height:125px;
+	background-color:#EEEEEC; 
+	min-width:203px;
+ 
 }
 
 .long {
 	max-width:150px;
-	padding-left:33.5px;
+	padding-left:26px;
 }
-
-
+ .wider {
+	 width:202px;
+ }
+ 
+ .wider-footer {
+	 min-width:191px;
+ }
+ 
+ .weekend-warriors img {
+	 padding-left:125px;
+ }
+ 
+ .weekend_warriors {
+	 max-width:650px;
+ }
+	 
 /*----------------------------------------------------------------------------------------------------------------------------------
 														Featured Info Page
 -----------------------------------------------------------------------------------------------------------------------------------*/
@@ -781,6 +799,9 @@ caption h2 {
   margin-left: 5px;
 }
 
+.row-fluid.friends-no-space [class*="span"] {
+}
+
 .no-top {
 	margin-top:-12px;
 }
@@ -796,4 +817,8 @@ caption h2 {
 .topping {
 	margin-top:16px;
 	margin-left:-5px;
+}
+
+.friend_topping {
+	margin-top:12px;
 }
