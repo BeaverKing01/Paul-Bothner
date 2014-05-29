@@ -27,7 +27,7 @@ Community Alliance Pics Overlay
 Match FB and Twitter links for head and footer
 Product span min height
 Hover effect on buttons to highlight cliackable area
-
+remove <style> from html for buttons
 
 ___Latest News___
 SSI functionality done, but ask about a news page with more items
@@ -42,6 +42,7 @@ populate each branch - James
 
 ___Products___
 Add footer pics
+line 382 - create class and remove styling
 
 ___Banner Click through___
 
