@@ -1,0 +1,47 @@
+#content{padding:15px;font-size:12px}div.content-middle{margin:20px
+auto;width:40%}div.content-iframe{margin:10px
+auto}h1.header-text{color:#666 !important;float:none;font-size:24px;margin:0
+0 20px;text-align:left}h2.heading{color:#343434;float:none;font-size:16px;margin:0
+0 20px;text-align:left}#resubscribe-loading{display:none;float:right;margin-top:9px}#unsubscribe-loading{display:none;float:right;margin-top:9px}#reason-submit-loading{display:none;float:right;margin-top:9px}table.resubscribe{margin:20px
+0 30px 0}td.resubscribe{vertical-align:middle !important}ul.re-subscribe{display:inline-block;height:30px;float:left;font-size:11px;font-weight:bold;text-shadow:1px 1px #FFF;text-align:center}ul.re-subscribe
+li{float:left;border:1px
+solid #3498db;border-right:none;background:#3498db url("../images/layout/gradient_blue_small.png") repeat-x scroll 0 bottom}ul.re-subscribe li:hover{background:#3498db url("../images/layout/gradient_blue_small_rev.png") repeat-x scroll 0 top}ul.re-subscribe li
+a{display:block;outline:none;border-right:1px solid #F8F8F8;padding:8px
+0 7px;text-decoration:none;color:white;width:90px;border-right:1px solid #3498db;text-shadow:0px 0px #f00}ul.re-subscribe li.gap-right{margin-right:10px;border-right:1px solid #bee7ff}ul.un-subscribe{display:inline-block;height:30px;float:left;font-size:11px;font-weight:bold;text-shadow:1px 1px #FFF;text-align:center}ul.un-subscribe
+li{float:left;border:1px
+solid #C2C2C2;border-right:none;background:#F2F2F2 url("../images/layout/gradient_small.png") repeat-x scroll 0 bottom}ul.un-subscribe li:hover{background:#F2F2F2 url("../images/layout/gradient_small_rev.png") repeat-x scroll 0 top}ul.un-subscribe li
+a{display:block;outline:none;border-right:1px solid #C2C2C2;padding:8px
+0 7px;text-decoration:none;width:90px}ul.un-subscribe li.gap-right{margin-right:10px;border-right:1px solid #bee7ff}.complaints-link{text-decoration:underline !important}.update-profile-link{text-decoration:underline !important}table.whatnow td.whatnow-icon-container{padding:15px;background:url(../images/layout/big-button-bg.png) repeat-x #ededed bottom;border:1px
+solid #D0D0D0}table.whatnow td.whatnow-text{padding-left:25px}#other-reason-container{display:none}ul.unsubscribe-reason{display:inline-block;height:30px;font-size:11px;font-weight:bold;text-shadow:1px 1px #FFF;text-align:center}ul.unsubscribe-reason
+li{float:left;border:1px
+solid #C2C2C2;border-right:none;background:#F2F2F2 url("../images/layout/gradient_small.png") repeat-x scroll 0 bottom}ul.unsubscribe-reason li:hover{background:#F2F2F2 url("../images/layout/gradient_small_rev.png") repeat-x scroll 0 top}ul.unsubscribe-reason li
+a{display:block;outline:none;border-right:1px solid #F8F8F8;padding:8px
+0 7px;text-decoration:none;color:#333;width:90px}ul.unsubscribe-reason li.gap-right{margin-right:10px;border-right:1px solid #C2C2C2}ul.operations li.privacy a
+img{background:url(../images/icons/lock_disable.png) no-repeat}div.message-information{height:100px;line-height:20px}div.message-information div.message-details{float:left;height:75px;width:85%}div.message-information div.message-stats{float:right;height:80px;width:15%}.public-horizontal-divider{border-bottom:1px solid #CCC;margin:0
+-15px 10px;padding:5px}table.public-stats{margin-top:10px;border:1px
+solid #CFCFCF;color:#666}table.public-stats tr
+td{border-right:1px solid #CFCFCF}table.public-stats
+td{background:url("../../images/layout/stat-background.png") repeat-x scroll 0 0 transparent}table.public-stats td>div{padding:10px
+5px 11px}table.public-stats div.big-stat{color:#444;font-size:22px;font-weight:bold;text-align:center;padding:2px
+0;text-shadow:1px 1px #FFF}table.public-stats div.small-stat{text-align:center}ul.complaint{display:inline-block;height:30px;font-size:11px;font-weight:bold;text-shadow:1px 1px #FFF;text-align:center}ul.complaint
+li{float:left;border:1px
+solid #C2C2C2;border-right:none;background:#F2F2F2 url("../images/layout/gradient_small.png") repeat-x scroll 0 bottom}ul.complaint li:hover{background:#F2F2F2 url("../images/layout/gradient_small_rev.png") repeat-x scroll 0 top}ul.complaint li
+a{display:block;outline:none;border-right:1px solid #F8F8F8;padding:8px
+0 7px;text-decoration:none;color:#333;width:90px}ul.complaint li.gap-right{margin-right:10px;border-right:1px solid #C2C2C2}#additional-comments-container{display:none}select.subscriptions{width:100px}#result{margin:20px
+auto;width:40%}p.success{background-color:#BBE4BB;color:#107331;padding:10px}p.error{background-color:#FCC;color:#C00;padding:10px}div.subscription-form-container{width:100%;border:1px
+solid #DEDEDE;padding:10px}button.public_button{margin-right:8px;color:#333 !important;padding:4px
+5px 4px 5px;border:1px
+solid #CCC;background:#F2F2F2 url("../images/layout/gradient_small.png") repeat-x scroll 0 bottom;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;-khtml-border-radius:3px;text-shadow:none !important}button.public_button:hover{background:#F2F2F2 url("../images/layout/gradient_small_rev.png") repeat-x scroll 0 top}label{color:#595959;font-size:14px;font-weight:normal;margin-right:15px}table.fieldset{margin:0
+0 0 4px;width:100%}table.fieldset
+td{padding:0
+5px 6px 0;vertical-align:top}table.fieldset td
+label{display:inline-block;margin-top:4px}table.fieldset input[type="checkbox"]{margin-top:4px}textarea{font-family:"courier new";border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;-khtml-border-radius:3px;border:1px
+solid #e0e0e0;background-color:#fbfbfb;padding:4px
+3px 3px 7px;font-size:14px;-moz-box-shadow:inset 2px 2px 3px rgba(0, 0, 0, 0.1);-webkit-box-shadow:inset 2px 2px 3px rgba(0, 0, 0, 0.1);-o-box-shadow:inset 2px 2px 3px rgba(0, 0, 0, 0.1);box-shadow:inset 2px 2px 3px rgba(0, 0, 0, 0.1)}table.fieldset.summary
+td{font-size:12px;padding-top:4px;color:#777}table.fieldset.summary td
+label{font-weight:bold;color:#777;margin-top:0px;white-space:nowrap}table.fieldset.view
+td{padding-top:4px}table.fieldset.view td
+label{margin-top:-1px}table.fieldset.view td.checkbox-setting{padding-top:7px;font-size:12px}table.fieldset
+td.submit{text-align:left}div.field-heading.top{margin-bottom:7px}div.field-heading.bottom{margin-bottom:7px}div.field-heading.bottom>label{font-size:12px !important;margin-left:2px}button.public_button,input.public_button{margin-right:8px;color:#333 !important;padding:4px
+5px 4px 5px;border:1px
+solid #CCC;background:#F2F2F2 url("../images/layout/gradient_small.png") repeat-x scroll 0 bottom;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;-khtml-border-radius:3px}button.public_button:hover,input.public_button:hover{background:#F2F2F2 url("../images/layout/gradient_small_rev.png") repeat-x scroll 0 top}input.public_button{min-width:0px !important}td.form-wrap{max-width:300px;min-width:150px}

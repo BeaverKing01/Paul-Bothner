@@ -1,0 +1,36 @@
+$(document).ready(function()
+{new Contacts();$('#contact_birth_date').datepicker({dateFormat:'yy-mm-dd'});$('#cmapping_email_next_message_date').datepicker({dateFormat:'yy-mm-dd'});$('#item-browse').find('tbody tr:last-child').addClass('last-child');});var Contacts=$.klass({settings:{},initialize:function(settings)
+{$.extend(this.settings,settings);$('.resubscribe-button','#resubscribe-content').live('click',$.proxy(this.resubscribe,this));$('.unsubscribe-button','#resubscribe-content').live('click',$.proxy(this.unsubscribe,this));$('#unsubscribe_reason').live('change',$.proxy(this.otherReasonShow,this));$('#unsubscribe-reason-submit').live('click',$.proxy(this.provideReason,this));$('#update-profile-submit').live('click',$.proxy(this.updateProfile,this));$('#pause-subscription-submit').live('click',$.proxy(this.pauseSubscription,this));$('#subscribe-friend-submit').live('click',$.proxy(this.subscribeFriend,this));},resubscribe:function(event)
+{$content=$(event.currentTarget).closest('tr').find('td.resubscribe-button-container');$loading=$(event.currentTarget).closest('tr').find('div#resubscribe-loading').show();params='list_hash='+$('#list_hash').val()+'&contact_hash='+$('#contact_hash').val();if($('#message_hash').val()!=undefined)
+{params+='&message_hash='+$('#message_hash').val();}
+$.ajax({url:URL+'/public/contacts/get/resubscribe',data:params,success:$.proxy(function(data)
+{$loading.hide();$content.html(data);},this)});},unsubscribe:function(event)
+{$content=$(event.currentTarget).closest('tr').find('td.unsubscribe-button-container');$loading=$(event.currentTarget).closest('tr').find('div#unsubscribe-loading').show();params='list_hash='+$(event.currentTarget).attr('data-hash')+'&contact_hash='+$('#contact_hash').val();if($('#message_hash').val()!=undefined){params+='&message_hash='+$('#message_hash').val();}
+$.ajax({url:URL+'/public/contacts/get/unsubscribe',data:params,success:$.proxy(function(data)
+{$loading.hide();$content.html(data);},this)});},otherReasonShow:function()
+{$element=$('#other-reason-container');if($('#unsubscribe_reason').val()=='Other reason')
+{$element.show();}
+else
+{if($element.is(':visible')===true)
+{$element.hide();}}},provideReason:function()
+{$('#reason-submit-loading').show();params='&list_hash='+$('#list_hash').val()+'&contact_hash='+
+$('#contact_hash').val();$.ajax({url:$('#reason-form').attr('action'),data:$('#reason-form').serialize()+params,success:$.proxy(function(data)
+{$('#reason-submit-loading').hide();response=$.parseJSON(data);$html='<table cellpadding="0" cellspacing="0" style="background:#ebf4ff;border:1px solid #bedcea;width:100%;margin: 10px 0 15px 0;">'+'<tr>'+'<td style="width:5%;padding:5px;vertical-align:middle;text-align:center;">';if(response.status=='success')
+{$html+='<img style="margin-top:5px;" src="'+URL+'/images/icons/tick-circle.png" alt="success" /></td>';}
+else
+{$html+='<img style="margin-top:5px;" src="'+URL+'/images/icons/cross-circle.png" alt="error" /></td>';}
+$html+='<td style="width:95%;padding:5px;vertical-align:middle;text-align:left;">'+response.message+'</td>'+'</tr>'+'</table>';$('#unsubscribe-reason-content').html($html);},this)});},updateProfile:function()
+{$('#result').hide();window.scrollTo(0,0);$.ajax({type:'POST',url:URL+'/public/contacts/op/update-my-profile/'+$('#message_hash').val()+'/'+$('#contact_hash').val(),data:$('#update_profile').serialize(),success:$.proxy(function(data)
+{$('#loading').hide();response=$.parseJSON(data);$html='<center>';if(response.status=='success')
+{$html+='<p class="success">'+$.translate('Profile successfully updated')+'</p>';}
+else
+{$html+='<p class="error">'+$.translate(response.errors)+'</p>';}
+$html+='</center>';$('#result').html($html);$('#result').show();},this)});},pauseSubscription:function()
+{$('#result').hide();window.scrollTo(0,0);$.ajax({type:'POST',url:URL+'/public/contacts/op/pause-subscription/'+$('#list_hash').val()+'/'+$('#contact_hash').val(),data:$('#pause_subscription').serialize(),success:$.proxy(function(data)
+{$('#loading').hide();response=$.parseJSON(data);$html='<center>';$html+='<p class="success">'+$.translate('Subscription paused until')+' '+response.paused_date+'</p>';$html+='</center>';$('#result').html($html);$('#result').show();},this)});},subscribeFriend:function()
+{$('#result').hide();window.scrollTo(0,0);$.ajax({type:'POST',url:URL+'/public/contacts/op/subscribe-friend/'+$('#list_hash').val(),data:$('#subscribe_friend').serialize(),success:$.proxy(function(data)
+{$('#loading').hide();response=$.parseJSON(data);$html='<center>';if(response.status=='success')
+{$html+='<p class="success">'+$.translate('You have been successfully subscribed')+'</p>';}
+else
+{$html+='<p class="error">'+$.translate(response.errors)+'</p>';}
+$html+='</center>';$('#result').html($html);$('#result').show();},this)});}});
