@@ -43,13 +43,37 @@
 	</script>  -->  
 <!-- InstanceBeginEditable name="head" -->
 <!-- InstanceEndEditable -->
+<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
 </head>
   
 	           <!--MAINBODY-->																
 	        
   
 
-<body onLoad="swapImage0();swapImage();swapImage2();swapImage3();swapImage4();swapImage5();" data-twttr-rendered="true" data-spy="scroll" data-target=".bs-docs-sidebar">
+<body onLoad="swapImage0();swapImage();swapImage2();swapImage3();swapImage4();swapImage5();MM_preloadImages('../../pics/buttons/shop-change.png','../../pics/buttons/finance_change.png','../../pics/buttons/find_change.png')" data-twttr-rendered="true" data-spy="scroll" data-target=".bs-docs-sidebar">
   <div class="logo-non hidden-tablet hidden-phone">
   	<img class="prime1" src="../../pics/header_ph_main.png" usemap="#Map" alt="one">
     <map name="Map">
@@ -376,7 +400,7 @@
 					</caption>
 					<tr>
 						<td class="news_pic">
-							<a href="http://www.bothnermusic.co.za" target="_blank"><img src="../../pics/buttons/shop.png" alt="thirteen"></a>
+							<a href="http://www.bothnermusic.co.za" target="_blank"><img src="../../pics/buttons/shop.png" alt="thirteen" id="Image1" onMouseOver="MM_swapImage('Image1','','../../pics/buttons/shop-change.png',1)" onMouseOut="MM_swapImgRestore()"></a>
 							</td>
 						<td  class="news_sec"><p  class="mini-title">The Shroom and the Fox</p>
 							<p class="news-content">One day, a fox was walking through the forest. He was hungry, and came upon a mushroom. FOx doesn't like mushrooms. So he walked off hungry</p></td>
@@ -386,8 +410,8 @@
 			</div>
       		
       		<div class="row-fluid buttons">
-		<a href="https://www.finyou.com/bothner/" target="_blank"><img class="span12" src="../../pics/buttons/finance.png" alt="FinYou Financing availible"></a>
-		<a href="../other/we_can_get_it.html"><img class="span12" src="../../pics/buttons/find.png" alt="sixteen" style="margin-left:8.5px;"></a>
+		<a href="https://www.finyou.com/bothner/" target="_blank"><img src="../../pics/buttons/finance.png" alt="FinYou Financing availible" class="span12" id="Image2" onMouseOver="MM_swapImage('Image2','','../../pics/buttons/finance_change.png',1)" onMouseOut="MM_swapImgRestore()"></a>
+		<a href="../other/we_can_get_it.html"><img src="../../pics/buttons/find.png" alt="sixteen" class="span12" id="Image3" style="margin-left:8.5px;" onMouseOver="MM_swapImage('Image3','','../../pics/buttons/find_change.png',1)" onMouseOut="MM_swapImgRestore()"></a>
 		</div>
 		
 	</div>

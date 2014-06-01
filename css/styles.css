@@ -524,23 +524,36 @@ z-index:30;
 	color:white;
 }
 
+.news-body {
+	max-width:335px;
+	padding-bottom:15px;
+}
+
+.pull-left-img {
+	float:left;
+	padding:5px;
+}
+
 .btn-minis {
   padding: 2px 3px;
   font-size: 8px;
   line-height: 10px;
-  color: white;
+  color: #ffffff;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-  background-color: #49afcd;
-  background-image: -moz-linear-gradient(top, #5bc0de, #2f96b4);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#5bc0de), to(#2f96b4));
-  background-image: -webkit-linear-gradient(top, #5bc0de, #2f96b4);
-  background-image: -o-linear-gradient(top, #5bc0de, #2f96b4);
-  background-image: linear-gradient(to bottom, #5bc0de, #2f96b4);
+  background-color: #006dcc;
+  background-image: -moz-linear-gradient(top, #0088cc, #0044cc);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#0044cc));
+  background-image: -webkit-linear-gradient(top, #0088cc, #0044cc);
+  background-image: -o-linear-gradient(top, #0088cc, #0044cc);
+  background-image: linear-gradient(to bottom, #0088cc, #0044cc);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5bc0de', endColorstr='#ff2f96b4', GradientType=0);
-  border-color: #2f96b4 #2f96b4 #1f6377;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0044cc', GradientType=0);
+  border-color: #0044cc #0044cc #002a80;
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
-  *background-color: #2f96b4;
+  *background-color: #0044cc;
+  /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
 
 }
 
@@ -550,14 +563,17 @@ z-index:30;
 .btn-minis.disabled,
 .btn-minis[disabled] {
   color: #ffffff;
-  background-color: #2f96b4;
-  *background-color: #2a85a0;
+  background-color: #0044cc;
+  *background-color: #003bb3;
 }
 .btn-minis:active,
 .btn-minis.active {
-  background-color: #24748c \9;
+  background-color: #003399 \9;
 }
 
+.btn-minis a:hover {
+	text-decoration:none;
+}
 
 
 caption {
@@ -593,6 +609,9 @@ caption h2 {
 
 .sales-bg {
 	margin:-10px 0;
+}
+.sales-accordion img {
+	padding:5px;
 }
 
 .shop_online {
@@ -702,6 +721,7 @@ caption h2 {
 	width:600px;
 	margin:24px auto 0;
 }
+
 
 /*----------------------------------------------------------------------------------------------------------------------------------
 													    Footer
@@ -821,6 +841,20 @@ caption h2 {
  }
  
  .weekend_warriors {
+	 max-width:650px;
+ }
+ .the-edge img {
+	 padding-left:30%;
+ }
+ 
+ .the-edge {
+	 max-width:650px;
+ }
+ .sesame img {
+	 padding-left:35%;
+ }
+ 
+ .sesame {
 	 max-width:650px;
  }
 	 

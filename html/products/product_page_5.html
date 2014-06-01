@@ -49,13 +49,37 @@
 
 	<!-- InstanceBeginEditable name="head" -->
   	<!-- InstanceEndEditable -->
+<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+	</script>
 </head>
   
 	           <!--MAINBODY-->																
 	        
   
 
-<body onLoad="swapImage0();swapImage();swapImage2();swapImage3();swapImage4();swapImage5();">
+<body onLoad="swapImage0();swapImage();swapImage2();swapImage3();swapImage4();swapImage5();MM_preloadImages('../../pics/buttons/finance_change.png','../../pics/buttons/find_change.png','../../pics/buttons/shop-change.png')">
   <div class="logo-non hidden-tablet hidden-phone">
   	<img class="prime1" src="../../pics/header_ph_main.png" usemap="#Map" alt="one">
     <map name="Map">
@@ -149,7 +173,7 @@
                     	<li><a href="../our_friends/artists.html">Artists 1</a></li>
                     	<li><a href="../our_friends/artists2.html">Artists 2</a></li>
                     	<li><a href="../our_friends/artists3.html">Artists 3</a></li>
-                    	<li><a href="../our_friends/artists4.html">PArtists 4</a></li>
+                    	<li><a href="../our_friends/artists4.html">Artists 4</a></li>
 					</ul>
 					</li>
                         <li><a href="../our_friends/venues.html">Venues</a></li>
@@ -316,25 +340,25 @@
 		<h2 class="news_title">Latest News</h2>
 	</caption>
 	<tr>
-		<td class="news_pic" ><img src="../../pics/news_feed/1a.png" alt="nine"><p class="btn btn-minis"><a href="../other/News_Feed.html">read more</a></td>
+		<td class="news_pic" ><img src="../../pics/news_feed/1a.png" alt="nine"><p class="btn btn-minis"><a href="../other/News_Feed.html#news1">read more</a></td>
 		<td  class="news_sec"><!-- InstanceBeginEditable name="newsfeed1" -->
 			<!--#include virtual="../../Includes/news_feed_1.shtml" -->
 		<!-- InstanceEndEditable --></td>
 	</tr>
 	<tr>
-		<td class="news_pic"><img src="../../pics/news_feed/2a.png" alt="ten"><p class="btn btn-minis"><a href="../other/News_Feed.html">read more</a></td>
+		<td class="news_pic"><img src="../../pics/news_feed/2a.png" alt="ten"><p class="btn btn-minis"><a href="../other/News_Feed.html#news2">read more</a></td>
 		<td  class="news_sec"><!-- InstanceBeginEditable name="newsfeed2" -->
 			<!--#include virtual="../../Includes/news_feed_2.shtml" -->
 		<!-- InstanceEndEditable --></td>
 	</tr>
 	<tr>
-		<td class="news_pic"><img src="../../pics/news_feed/3a.png" alt="eleven"><p class="btn btn-minis"><a href="../other/News_Feed.html">read more</a></td>
+		<td class="news_pic"><img src="../../pics/news_feed/3a.png" alt="eleven"><p class="btn btn-minis"><a href="../other/News_Feed.html#news3">read more</a></td>
 		<td class="news_sec"><!-- InstanceBeginEditable name="newsfeed3" -->
 			<!--#include virtual="../../Includes/news_feed_3.shtml" -->
 		<!-- InstanceEndEditable --></td>
 	</tr>
 	<tr>
-		<td class="news_pic"><img src="../../pics/news_feed/4a.png" alt="twelve"><p class="btn btn-minis"><a href="../other/News_Feed.html">read more</a></td>
+		<td class="news_pic"><img src="../../pics/news_feed/4a.png" alt="twelve"><p class="btn btn-minis"><a href="../other/News_Feed.html#news4">read more</a></td>
 		<td class="news_sec"><!-- InstanceBeginEditable name="newsfeed4" -->
 			<!--#include virtual="../../Includes/news_feed_4.shtml" -->
 		<!-- InstanceEndEditable --></td>
@@ -348,7 +372,7 @@
 		</caption>
 	<tr>
 		<td class="news_pic">
-			<a href="http://www.bothnermusic.co.za" target="_blank"><img src="../../pics/buttons/shop.png" alt="thirteen"></a>
+			<a href="http://www.bothnermusic.co.za" target="_blank"><img src="../../pics/buttons/shop.png" alt="thirteen" id="Image3" onMouseOver="MM_swapImage('Image3','','../../pics/buttons/shop-change.png',1)" onMouseOut="MM_swapImgRestore()"></a>
 		</td>
 		<td  class="news_sec">
 			<p  class="mini-title">The Shroom and the Fox</p>	
@@ -362,14 +386,14 @@
 
 		</div>
 		<div class="row-fluid buttons">
-		<a href="https://www.finyou.com/bothner/" target="_blank"><img class="span12" src="../../pics/buttons/finance.png" alt="FinYou Financing availible"></a>
-		<a href="../other/we_can_get_it.html"><img class="span12" src="../../pics/buttons/find.png" alt="sixteen" style="margin-left:8.5px;"></a>
+		<a href="https://www.finyou.com/bothner/" target="_blank"><img src="../../pics/buttons/finance.png" alt="FinYou Financing availible" class="span12" id="Image1" onMouseOver="MM_swapImage('Image1','','../../pics/buttons/finance_change.png',1)" onMouseOut="MM_swapImgRestore()"></a>
+		<a href="../other/we_can_get_it.html"><img src="../../pics/buttons/find.png" alt="sixteen" class="span12" id="Image2" style="margin-left:8.5px;" onMouseOver="MM_swapImage('Image2','','../../pics/buttons/find_change.png',1)" onMouseOut="MM_swapImgRestore()"></a>
 		</div>
 		
 	</div>
 	
             <!--Community Alignment Pics--><!-- InstanceBeginEditable name="MainContent" -->
-			<div class="container-fluid-left">
+			<div class="container-fluid-left  sales-accordion">
 				<div id="Tabs1" class="span7 no-margin">
 			<ul>
 				<li><a href="#tabs-1">About</a></li>
@@ -381,7 +405,7 @@
 					<div class="trading-hours"><h2>Discover the Power of HandSonic</h2></div>
 				</div>
 				<div>
-					<p><img class="alignleft" alt="" src="../../pics/sales/1.png" ></p>
+					<p><img class="pull-left" alt="" src="../../pics/sales/1.png" ></p>
 					<p>Going far beyond typical pad controllers, the HandSonic HPD-20 is a sophisticated hand percussion instrument with an amazing level of expressive power. It features 13 velocity-sensitive pads arranged in a circular configuration, with different pad sizes for maximum ergonomic efficiency. You strike the pads to play sounds, of course, but you can also touch or press a pad to dampen or mute another pad’s tone, adjust its pitch, and more. This lets you execute traditional acoustic hand percussion techniques with authentic results, and also create dynamic, unique textures that are perfect for electronic dance music and other modern styles. On the two largest pads, you can play with natural tonal variations, depending on where you strike the pads. Further sound control is available with the Roll button, Realtime Modify knob, and the famous D-BEAM, which provides a cool way to play sounds and manipulate effects with hand movements in the air.</p>
 				</div>
 				<p><span style="font-weight: bold; font-size: 14px;">Dynamic E-Percussion for Stage and Studio</span> </p>
@@ -410,27 +434,27 @@
 						<div class="trading-hours"><h2>Features</h2></div>
 						<h4>Packed with SuperNATURAL Sounds</h4>
 						<div>
-							<p><img src="../../pics/sales/2.png" alt="" width="119" height="97" class="alignleft"></p>
+							<p><img src="../../pics/sales/2.png" alt="" width="119" height="97" class="pull-left"></p>
 							<p>The HPD-20 comes with 850 onboard sounds that are instantly accessible and ready to play. At your command is an enormous library of ethnic percussion instruments from around the world, as well as melodic and orchestra percussion. Traditional drum kit sounds are also on tap, plus a large selection of electronic tones that are ideal for current music. All the sounds offer an incredible range of dynamic expression, thanks to the powerful combination of Roland’s SuperNATURAL sound engine and the ultra-sensitive response and unique functionality of the HandSonic pad interface. The HPD-20 provides 200 total kits—including 100 kits filled with ready-to-go setups—and you can freely modify any kit just how you like for any style or playing situation.</p>
 						</div>
 						<h4>Import Your Own Custom Sounds</h4>
 						<div>
-							<p><img src="../../pics/sales/3.png" alt="" width="120" height="97" class="alignleft"></p>
+							<p><img src="../../pics/sales/3.png" alt="" width="120" height="97" class="pull-left"></p>
 							<p>In addition to its built-in sounds, the HPD-20 gives you the ability to import up to 500 of your own WAV sounds and play them from the pads. Just load up a USB flash drive with your favorite sounds from your computer, then connect it to the HPD-20 to import them, assign them to pads, and create your own kits. The types of sounds you can use are not limited to short percussion strikes—with up to 12 minutes of time available, you’re able customize your HandSonic with audio phrases, sound effects, backing music, and more. Once your sounds are in the HPD-20, you’re free to use them just like the onboard sounds, with complete editing and effects capabilities at your disposal. This includes the ability to continuously loop beats and other rhythmic sounds and start/stop playback with the pads.</p>
 						</div>
 						<h4>Deep Editing and Dynamic Multi-Effects</h4>
 						<div>
-							<p><img src="../../pics/sales/5.png" alt="" width="119" height="97" class="alignleft"></p>
+							<p><img src="../../pics/sales/5.png" alt="" width="119" height="97" class="pull-left"></p>
 							<p>Inside the HPD-20 is a full set of powerful tools for creating all-new sounds. When building user kits, it’s possible to edit every instrument individually by modifying its volume, pitch, decay, and more. You can also layer two sounds together and assign parameters to blend or switch them dynamically based on your playing velocity. Three independent multi-effects engines—each equipped with 25 different effects—provide rich sound-shaping options, from standard chorus and echo to intense effects such as distortion, filter, and bit crush that are ideal for dance music and electronica. The Realtime Modify knob allows you to tweak pitch and effects as you perform for expressive sound shaping on the fly, and ambience effects and EQ can be applied to an entire kit for final sweetening.</p>
 						</div>
 						<h4>Quick Rec and USB</h4>
 						<div>
-							<p><img class="alignleft" alt="" src="../../pics/sales/6.png" width="120" height="97"></p>
+							<p><img class="pull-left" alt="" src="../../pics/sales/6.png" width="120" height="97"></p>
 							<p>With the handy Quick Rec function, capturing a performance or idea is just a button press away. Play along with the built-in metronome for steady time as you record, or go without to capture playing without being constrained by a set tempo. Saving your recordings to a connected USB flash drive is just as easy—just hit the Export function button, adjust level and other parameters as desired, and save! You can back up your HPD-20 user kits and other settings to USB memory as well. The HPD-20′s USB Computer port makes it a breeze to connect to a Mac or Windows computer and use the powerful HandSonic pad interface to play virtual instruments and record beats in audio/MIDI music production software.</p>
 						</div>
 						<h4>Trigger Inputs and MIDI</h4>
 						<div>
-							<p><img class="alignleft" alt="" src="../../pics/sales/1.png" width="120" height="97"></p>
+							<p><img class="pull-left" alt="" src="../../pics/sales/1.png" width="120" height="97"></p>
 							<p>The HPD-20 excels as a standalone percussion instrument, but you can extend its capabilities even further with external devices. Via the TRIG IN jack, you can connect a wide range of Roland pad types for stick playing, or a kick pad for banging out beats from the floor. Add a Roland hi-hat controller to the dedicated jack and you’ve got a versatile and super-compact percussion kit! MIDI I/O provides even more possibilities, allowing you to trigger HPD-20 sounds from V-Drums, SPD-series pads, keyboards, and more, or play sounds on other instruments from the HandSonic.</p>
 						</div>
 			</div>

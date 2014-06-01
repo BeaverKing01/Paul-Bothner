@@ -50,13 +50,37 @@
 
 	<!-- InstanceBeginEditable name="head" -->
   	<!-- InstanceEndEditable -->
+<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+	</script>
 </head>
   
 	           <!--MAINBODY-->																
 	        
   
 
-<body onLoad="swapImage0();swapImage();swapImage2();swapImage3();swapImage4();swapImage5();">
+<body onLoad="swapImage0();swapImage();swapImage2();swapImage3();swapImage4();swapImage5();MM_preloadImages('../../pics/buttons/finance_change.png','../../pics/buttons/find_change.png','../../pics/buttons/shop-change.png')">
   <div class="logo-non hidden-tablet hidden-phone">
   	<img class="prime1" src="../../pics/header_ph_main.png" usemap="#Map" alt="one">
     <map name="Map">
@@ -150,7 +174,7 @@
                     	<li><a href="artists.html">Artists 1</a></li>
                     	<li><a href="artists2.html">Artists 2</a></li>
                     	<li><a href="artists3.html">Artists 3</a></li>
-                    	<li><a href="artists4.html">PArtists 4</a></li>
+                    	<li><a href="artists4.html">Artists 4</a></li>
 					</ul>
 					</li>
                         <li><a href="venues.html">Venues</a></li>
@@ -317,25 +341,25 @@
 		<h2 class="news_title">Latest News</h2>
 	</caption>
 	<tr>
-		<td class="news_pic" ><img src="../../pics/news_feed/1a.png" alt="nine"><p class="btn btn-minis"><a href="../other/News_Feed.html">read more</a></td>
+		<td class="news_pic" ><img src="../../pics/news_feed/1a.png" alt="nine"><p class="btn btn-minis"><a href="../other/News_Feed.html#news1">read more</a></td>
 		<td  class="news_sec"><!-- InstanceBeginEditable name="newsfeed1" -->
 			<!--#include virtual="../../Includes/news_feed_1.shtml" -->
 		<!-- InstanceEndEditable --></td>
 	</tr>
 	<tr>
-		<td class="news_pic"><img src="../../pics/news_feed/2a.png" alt="ten"><p class="btn btn-minis"><a href="../other/News_Feed.html">read more</a></td>
+		<td class="news_pic"><img src="../../pics/news_feed/2a.png" alt="ten"><p class="btn btn-minis"><a href="../other/News_Feed.html#news2">read more</a></td>
 		<td  class="news_sec"><!-- InstanceBeginEditable name="newsfeed2" -->
 			<!--#include virtual="../../Includes/news_feed_2.shtml" -->
 		<!-- InstanceEndEditable --></td>
 	</tr>
 	<tr>
-		<td class="news_pic"><img src="../../pics/news_feed/3a.png" alt="eleven"><p class="btn btn-minis"><a href="../other/News_Feed.html">read more</a></td>
+		<td class="news_pic"><img src="../../pics/news_feed/3a.png" alt="eleven"><p class="btn btn-minis"><a href="../other/News_Feed.html#news3">read more</a></td>
 		<td class="news_sec"><!-- InstanceBeginEditable name="newsfeed3" -->
 			<!--#include virtual="../../Includes/news_feed_3.shtml" -->
 		<!-- InstanceEndEditable --></td>
 	</tr>
 	<tr>
-		<td class="news_pic"><img src="../../pics/news_feed/4a.png" alt="twelve"><p class="btn btn-minis"><a href="../other/News_Feed.html">read more</a></td>
+		<td class="news_pic"><img src="../../pics/news_feed/4a.png" alt="twelve"><p class="btn btn-minis"><a href="../other/News_Feed.html#news4">read more</a></td>
 		<td class="news_sec"><!-- InstanceBeginEditable name="newsfeed4" -->
 			<!--#include virtual="../../Includes/news_feed_4.shtml" -->
 		<!-- InstanceEndEditable --></td>
@@ -349,7 +373,7 @@
 		</caption>
 	<tr>
 		<td class="news_pic">
-			<a href="http://www.bothnermusic.co.za" target="_blank"><img src="../../pics/buttons/shop.png" alt="thirteen"></a>
+			<a href="http://www.bothnermusic.co.za" target="_blank"><img src="../../pics/buttons/shop.png" alt="thirteen" id="Image3" onMouseOver="MM_swapImage('Image3','','../../pics/buttons/shop-change.png',1)" onMouseOut="MM_swapImgRestore()"></a>
 		</td>
 		<td  class="news_sec">
 			<p  class="mini-title">The Shroom and the Fox</p>	
@@ -363,8 +387,8 @@
 
 		</div>
 		<div class="row-fluid buttons">
-		<a href="https://www.finyou.com/bothner/" target="_blank"><img class="span12" src="../../pics/buttons/finance.png" alt="FinYou Financing availible"></a>
-		<a href="../other/we_can_get_it.html"><img class="span12" src="../../pics/buttons/find.png" alt="sixteen" style="margin-left:8.5px;"></a>
+		<a href="https://www.finyou.com/bothner/" target="_blank"><img src="../../pics/buttons/finance.png" alt="FinYou Financing availible" class="span12" id="Image1" onMouseOver="MM_swapImage('Image1','','../../pics/buttons/finance_change.png',1)" onMouseOut="MM_swapImgRestore()"></a>
+		<a href="../other/we_can_get_it.html"><img src="../../pics/buttons/find.png" alt="sixteen" class="span12" id="Image2" style="margin-left:8.5px;" onMouseOver="MM_swapImage('Image2','','../../pics/buttons/find_change.png',1)" onMouseOut="MM_swapImgRestore()"></a>
 		</div>
 		
 	</div>
@@ -379,52 +403,52 @@
 					<br />
 				</div>
 				<div class="our_friends">
-			<div class="row-fluid  no-space no-top">
+			<div class="row-fluid   no-top friends-no-space">
             <ul class="thumbnails">
-              <li class="span5a no-space">
+              <li class="span5a friend_topping">
                 <div class="thumbnail">
                   <div>
-                   <p class="div_title">Freshly Ground</p>
+                   <p class="div_title wider">Freshly Ground</p>
                   </div>
 				  <div class="friends_div">
  				  <img src="../../pics/Endorsee's/freshley-Ground2.jpg" alt="seventeen">
 				  </div>
-                  <div class="widget-footer">
+                  <div class="widget-footer wider-footer">
  						<p>
-                      <button id="open" class="btn btn-info">Read More</button>
+                      <button id="open" class="btn btn-primary">Read More</button>
 					  	</p>
  						<div id="Dialog1">‘Popular enough to headline and get serious encores’, is the best way to describe this band. With master musicianship and groove, all in the context of ‘giving ‘em what they want’, this crew of winners manages to retain what musicians call integrity. Freshlyground brings together hipness, conscience and international level production. They hit the charts spot on the mark, even joining a shimmying Shakira on the 2010 FIFA World Cup theme, “Waka Waka (This Time for Africa).” For more information on the band click <a class="btn btn-small" href="#">here</a></div>
  						
                   </div>
                 </div>
               </li>
-              <li class="span5a no-space">
+              <li class="span5a friend_topping">
                 <div class="thumbnail">
                   <div>
-                   <p class="div_title">Mac Stanley</p>
+                   <p class="div_title wider">Mac Stanley</p>
                   </div>
 				  <div class="friends_div">
  				  <img src="../../pics/Endorsee's/flat-stanley2.1.jpg" alt="eighteen">
 				  </div>
-                  <div class="widget-footer">
+                  <div class="widget-footer wider-footer">
  						<p>
-                      <button id="open2" class="btn btn-info">Read More</button>
+                      <button id="open2" class="btn btn-primary">Read More</button>
                     </p>
  						<div id="Dialog2">Melodic acoustic rock hardly comes better than that crafted by South Africa’s Flat Stanley, now known as Mac Stanley. The accolades earned by the Cape Town-based three-piece, over their two studio albums – 2004’s ‘Of Secrets and Wine’ and 2007’s ‘Between 2wo Worlds’ and the unashamed adoration the band earns, each time they play live, has gained the band a strong reputation amongst audiences. For more information on the band click here</div>
                   </div>
                 </div>
               </li>
-              <li class="span5a no-space">
+              <li class="span5a friend_topping">
                 <div class="thumbnail">
                   <div>
-                   <p class="div_title">Mark Haze</p>
+                   <p class="div_title wider">Mark Haze</p>
                   </div>
 				  <div class="friends_div">
  				  <img src="../../pics/Endorsee's/12th-Anv32.jpg" alt="nineteen">
 				  </div>
-                  <div class="widget-footer">
+                  <div class="widget-footer wider-footer">
  						<p>
-                      <button id="open3" class="btn btn-info">Read More</button>
+                      <button id="open3" class="btn btn-primary">Read More</button>
                     </p>
  						<div id="Dialog3">Vocalist, Mark Haze can be described as an erudite prodigy, having been musically trained from an early age. Easily, the most pertinent reason for him reaching such a high level, in the SA Idols competition, to people in the know. Hailing from Cape Town, South Africa, Mark Haze has a reputation for being one of the most energetic and entertaining live acts in the country. For more information on the band click here</div>
                   </div>
@@ -432,52 +456,52 @@
               </li>
             </ul>
           </div>
-        <div class="row-fluid  no-space no-top">
+        <div class="row-fluid   no-top">
 			<br />
             <ul class="thumbnails no-top">
-              <li class="span5a no-space">
+              <li class="span5a friend_topping">
                 <div class="thumbnail">
                   <div>
-                   <p class="div_title">Taxi Violence</p>
+                   <p class="div_title wider">Taxi Violence</p>
                   </div>
 				  <div class="friends_div">
  				  <img src="../../pics/Endorsee's/taxi-violence21.jpg" alt="twenty">
 				  </div>
-                 <div class="widget-footer">
+                 <div class="widget-footer wider-footer">
  						<p>
-                      <button id="open4" class="btn btn-info">Read More</button>
+                      <button id="open4" class="btn btn-primary">Read More</button>
                     </p>
  						<div id="Dialog4">If you like the tuneful use of light and shade like Led Zeppelin, Hendrix’s Band of Gypsies, Rage Against the Machine, Queens of the Stone Age, or any rock with that remarkable heaviness, grounded in performance and riffage, not sheer volume, you’ll love Taxi Violence. If you’ve heard Zeppelin’s John Bonham’s beats and the multi-guitar, low-end, V8-revving tone of a guitarist whom wields an axe, not a tennis racket, you’ll need to watch Taxi Violence live. Ever felt like you’ll never get to hear those bands because ‘someone’ said there’s no market for it here? They lied! Join the throng! “Taxi Violence smashed onto the scene as a breath of fresh, raw exuberance without the need for any fancy ‘post’ this, or ‘neo’ that or cute little words like ‘alt’ or ‘indie’ necessary to define them. The result is that after seven years together, their sound is still a timeless ode to what they do best… rocking out!” – Dave Mac (Muse Magazine). For more information on the band click here</div>
                   </div>
                 </div>
               </li>
-              <li class="span5a no-space">
+              <li class="span5a friend_topping">
                 <div class="thumbnail">
                   <div>
-                   <p class="div_title">Almost Famous</p>
+                   <p class="div_title wider">Almost Famous</p>
                   </div>
 				  <div class="friends_div">
  				  <img src="../../pics/Endorsee's/Almost-Famous.jpg" alt="twentyone">
 				  </div>
-                 <div class="widget-footer">
+                 <div class="widget-footer wider-footer">
  						<p>
-                      <button id="open5" class="btn btn-info">Read More</button>
+                      <button id="open5" class="btn btn-primary">Read More</button>
                     </p>
  						<div id="Dialog5">This band’s ability is such that they are actually looked up to, in terms of technique. Not many guitarists can play like Charles Knighton-Pullen. This University Graduate should have an interdict charged against him, to keep the rest of our reputations safe. The bassist and drummer hold clinics to instruct (reads remedy) people. Enough already! “This band is energetic, fun and most of all… talented. With a perfect mix of professionalism, experience and youth, they are designed for success, engineered for accomplishment and endowed with the seeds of greatness’” – Chad Saaiman. For more information on the band click here</div>
                   </div>
                 </div>
               </li>
-              <li class="span5a no-space">
+              <li class="span5a friend_topping">
                 <div class="thumbnail">
                   <div>
-                   <p class="div_title">Captin Stu</p>
+                   <p class="div_title wider">Captin Stu</p>
                   </div>
 				  <div class="friends_div">
  				  <img src="../../pics/Endorsee's/CAPTIAN-STU.jpg" alt="twentytwo">
 				  </div>
-                  <div class="widget-footer">
+                  <div class="widget-footer wider-footer">
  						<p>
-                      <button id="open6" class="btn btn-info">Read More</button>
+                      <button id="open6" class="btn btn-primary">Read More</button>
                     </p>
  						<div id="Dialog6">Captain Stu is a collective of musical superheroes, based in Cape Town, South Africa. Despite being in disguise, they’ve been well recognized on the South African music circuit. Touring and performing around the nation, since 2003, has made them a highly visible entity, in a world of musical apathy and a lack of good fun. Their sound seamlessly blends ska, funk, punk and soul… and funny looking costumes. They offer a fresh approach to an eclectic African approach. For more information on the band click here</div>
                   </div>
@@ -485,52 +509,52 @@
               </li>
             </ul>
           </div>
-        <div class="row-fluid  no-space no-top">
+        <div class="row-fluid   no-top">
 			<br />
             <ul class="thumbnails no-top">
-              <li class="span5a no-space">
+              <li class="span5a friend_topping">
                 <div class="thumbnail">
                   <div>
-                   <p class="div_title">When Karma Sleeps</p>
+                   <p class="div_title wider">When Karma Sleeps</p>
                   </div>
 				  <div class="friends_div">
  				  <img src="../../pics/Endorsee's/When-Karma-Sleeps.jpg" alt="twenty">
 				  </div>
-                 <div class="widget-footer">
+                 <div class="widget-footer wider-footer">
  						<p>
-                      <button id="open7" class="btn btn-info">Read More</button>
+                      <button id="open7" class="btn btn-primary">Read More</button>
                     </p>
  						<div id="Dialog7">On the name ‘When Karma Sleeps’, the guys had this to say: ”It was a long process that took a lot of blood, sweat and tears to come up with. To explain what ‘When Karma Sleeps’ means, is a difficult one. We prefer everyone having their own perception of what it means. To us, it’s about everything being governed by Karma. It might feel like it’s a perfect world but what happens when that element of karma gets taken away? Where would the world end up, if the principle of good and bad karma didn’t exist!? What happens… WHEN KARMA SLEEPS?” for more information on the band click here</div>
                   </div>
                 </div>
               </li>
-              <li class="span5a no-space">
+              <li class="span5a friend_topping">
                 <div class="thumbnail">
                   <div>
-                   <p class="div_title">The Jesse Jordan Band</p>
+                   <p class="div_title wider">Jesse Jordan Band</p>
                   </div>
 				  <div class="friends_div">
  				  <img src="../../pics/Endorsee's/jesse_jordan_band.jpg" alt="twentyone">
 				  </div>
-                 <div class="widget-footer">
+                 <div class="widget-footer wider-footer">
  						<p>
-                      <button id="open8" class="btn btn-info">Read More</button>
+                      <button id="open8" class="btn btn-primary">Read More</button>
                     </p>
  						<div id="Dialog8">The rock music scene and The Jesse Jordan Band… Consistency in the face of adversity, the chasing of a dream and the ultimate realization of that very dream…” For more information on the band click here</div>
                   </div>
                 </div>
               </li>
-              <li class="span5a no-space">
+              <li class="span5a friend_topping">
                 <div class="thumbnail">
                   <div>
-                  <p class="div_title">The Plastics </p>
+                  <p class="div_title wider">The Plastics </p>
                   </div>
 				  <div class="friends_div">
  				  <img class="long" src="../../pics/Endorsee's/PlasticsBand-Pic-200x25Plastics0.jpg" alt="twentytwo">
 				  </div>
-                  <div class="widget-footer">
+                  <div class="widget-footer wider-footer">
  						<p>
-                      <button id="open9" class="btn btn-info">Read More</button>
+                      <button id="open9" class="btn btn-primary">Read More</button>
                     </p>
  						<div id="Dialog9">This crew began in 2007 as an evolution of punk band HOAX. it’s now its own thing. Completely.They have been linked to a lot of things, they’ve worked with a lot of people, they’ve made a lot of friends. Words to discribe their music and, experience and work ethic include “innovative” , “Earl Grey”, “guerrilla”, “disco Something”, “retro rock” and “melody” amongst others. That’s no joke.Along with a cult following that trend to turn their sentence into acronym and get the dance floor riled up, The Plastics set out to take over the world, or at least play some darn good gigs along the way.2008 saw the release of the bands first EP The Plastics followed closely by another one; Kiss The Plastics (2009). Both distributed among Cape Town’s indie elite and head bangers for free. for more information on the band click here.</div>
                   </div>
@@ -542,9 +566,10 @@
 		
 		          <div class="pagination pagination-centered no-top">
                 <ul>
-                  <li>
+				   <li>
                     <a href="artists3.html">&laquo;</a>
                   </li>
+
                   <li>
                     <a href="artists.html">1</a>
                   </li>
