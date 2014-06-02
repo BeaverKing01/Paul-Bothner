@@ -163,7 +163,7 @@ function MM_swapImage() { //v3.0
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">Our Friends<b class="caret"></b></a>
                   <ul class="dropdown-menu">
 				  <li class="dropdown-submenu">
-				  	<a tabindex="-1" href="#">Artists</a>
+				  	<a tabindex="-1" href="../html/our_friends/artists.html">Artists</a>
 					<ul class="dropdown-menu">
                     	<li><a href="../html/our_friends/artists.html">Artists 1</a></li>
                     	<li><a href="../html/our_friends/artists2.html">Artists 2</a></li>
@@ -260,7 +260,7 @@ function MM_swapImage() { //v3.0
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">Our Friends<b class="caret"></b></a>
                   <ul class="dropdown-menu">
 				  <li class="dropdown-submenu">
-				  	<a tabindex="-1" href="#">Artists</a>
+				  	<a tabindex="-1" href="../html/our_friends/artists.html">Artists</a>
 					<ul class="dropdown-menu">
                     	<li><a href="../html/our_friends/artists.html">Artists 1</a></li>
                     	<li><a href="../html/our_friends/artists2.html">Artists 2</a></li>
