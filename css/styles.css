@@ -852,6 +852,14 @@ caption h2 {
  .the-edge {
 	 max-width:650px;
  }
+ .service img {
+	 padding-left:30%;
+	 padding-bottom:10px;
+ }
+ 
+ .service {
+	 max-width:650px;
+ }
  .sesame img {
 	 padding-left:35%;
  }
