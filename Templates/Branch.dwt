@@ -17,7 +17,7 @@
 	<link rel="stylesheet" href="../font/css/font-awesome.min.css">
 	<link rel="icon" type="image/png" href="../pics/favicon/favicon.png" />
 	<!-- Bootstrap -->
-    <link href="../css/bootstrap.css" rel="stylesheet">
+    <link href="../css/bothner_boot.css" rel="stylesheet">
     <!-- Bothner specific CSS -->
     <link href="../css/styles.css" rel="stylesheet">
 	
@@ -102,7 +102,7 @@ function MM_swapImage() { //v3.0
      
      
      
-      <div class="navbar navbar-static-top hidden-phone hidden-tablet visible-desktop">
+      <div class="navbar navbar-static-top">
         <div class="navbar-custom">
           <div class="container-fluid">
           
@@ -116,7 +116,7 @@ function MM_swapImage() { //v3.0
       <div class="col-xs-5 col-sm-3 pull-left">
             <div class="nav-collapse collapse">        
               <ul class="nav">
-                    <li><a href="../Index.html"><i class="fa fa-home home-icon"></i>&nbsp;Home</a></li>
+                    <li><a href="../index.html"><i class="fa fa-home home-icon"></i>&nbsp;Home</a></li>
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us<b class="caret"></b></a>
                   <ul class="dropdown-menu">
@@ -196,107 +196,7 @@ function MM_swapImage() { //v3.0
       </div>
       </div>
       
-             <!--NAVBAR FOR MOBILE DEVICE-->
-      
-      
-      <div class="navbar navbar-fixed-top visible-phone visible-tablet  hidden-desktop">
-        <div class="navbar-custom">
-          <div class="container-fluid">
-          
-            <!-- Below button used for responsive navigation -->
-            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <!-- Start: Primary navigation -->
-      <div class="col-xs-5 col-sm-3 pull-left">
-            <div class="nav-collapse collapse">        
-              <ul class="nav">
-                    <li><a href="../Index.html">Home</a></li>
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us<b class="caret"></b></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="../html/resources/shop_hours.html">Shop Hours</a></li>
-                    <li><a href="../html/resources/our_legacy.html">Our Legacy</a></li>
-                    <li><a href="../html/resources/PAIA_info.html">PAIA info</a></li>
-                    <li><a href="../html/resources/Disclaimer.html">Disclaimer</a></li>             
-                  </ul>                  
-                </li>
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Branches<b class="caret"></b></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="../html/branches/overview.html">Overview</a></li>
-                     <li class="nav-header">Cape Town</li>
-                    <li><a href="../html/branches/plumstead.html">Plumstead Super Store</a></li>
-                    <li><a href="../html/branches/N1.html">N1 Super Store</a></li>
-                    <li><a href="../html/branches/claremont.html">Claremont</a></li>
-                    <li><a href="../html/branches/parklands.html">Parklands</a></li>
-                    <li><a href="../html/branches/somerset_west.html">Somerset West</a></li>
-                    <li class="nav-header">Kimberly</li>
-                    <li><a href="../html/branches/dv_kim.html">DV Village</a></li>
-                    <li class="nav-header">Bloemfontein</li>
-                    <li><a href="../html/branches/dv_bloem.html">DV Village</a></li>
-                    <li class="nav-header">Centurion</li>
-                    <li><a href="../html/branches/jean_village.html">Jean Village</a></li>
-                    <li class="nav-header">Glenwood</li>
-                    <li><a href="../html/branches/glenwood.html">Glenwood Village Music</a></li>
-                    <li class="nav-header">Country Wide</li>
-                    <li><a href="../html/branches/workshop.html">Service Department</a></li>
-                    <li><a href="http://www.bothnermusic.co.za/" target="_blank">Online Store</a></li>
-                  </ul>
-                </li>
-                  <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Music Activities<b class="caret"></b></a>
-                  <ul class="dropdown-menu">
-                        <li><a href="../html/music_activities/tutors.html">In-Store Tutors</a></li>
-                    	<li><a href="../html/music_activities/weekend_warriors.html">Weekend Warriors</a></li>
-                        <li><a href="../html/music_activities/the_edge.html">The Edge</a></li>
-                    	<li><a href="../html/music_activities/sesame_street.html">Sesame Street Music Works</a></li>
-                    </ul>
-                </li>
-                  <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Our Friends<b class="caret"></b></a>
-                  <ul class="dropdown-menu">
-				  <li class="dropdown-submenu">
-				  	<a tabindex="-1" href="../html/our_friends/artists.html">Artists</a>
-					<ul class="dropdown-menu">
-                    	<li><a href="../html/our_friends/artists.html">Artists 1</a></li>
-                    	<li><a href="../html/our_friends/artists2.html">Artists 2</a></li>
-                    	<li><a href="../html/our_friends/artists3.html">Artists 3</a></li>
-                    	<li><a href="../html/our_friends/artists4.html">Artists 4</a></li>
-					</ul>
-					</li>
-                        <li><a href="../html/our_friends/venues.html">Venues</a></li>
-                     	<li><a href="../html/our_friends/institutions.html">Institions</a></li>
-                    	<li><a href="../html/our_friends/educational_insti.html">Educational Institions</a></li>
-                   </ul>
-                </li>
-
-                <li><a href="../html/branches/workshop.html">Service Department</a></li>
-                <li><a href="../html/mailing_list.html">Mailing List</a></li>
-                <li><a href="../html/other/contact.html">Contact</a></li>
-                <li>            <div class="search-box">
-                                <form class="search-form" action="#">
-                         <input type="text" class="search-input" name="search_text" placeholder="Search..." maxlength="140">
-                         <input class="search-button" type="submit" name="search_button" value="&Alpha;&Omega;" />
-              </form>
-        </div>
-</li>
-              </ul>
-              
-                    
-            </div>
-
-          </div>
-        </div>
-      </div>
-      </div>
-   <!--End: Navigation wrapper--> 
 	
-				    <!--Mobile Logo-->
-	
-	 <div class="row-fluid logo-full hidden-desktop"><img class="span11" src="../pics/header_ph_main.png" alt="three"></div>
   
     </header>
     

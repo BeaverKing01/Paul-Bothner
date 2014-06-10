@@ -8,7 +8,7 @@
   max-width: 1000px;
 }
 .container-fluid-left {
-  margin-left:-10px;
+  margin-left:-5px;
   max-width: 710px;
   min-height:780px;
 }
@@ -76,20 +76,30 @@
 }
 
 #banner_left {
-	max-width:760px;
+	max-width:690px;
 	margin:5px 0;
 	display:inline-block;
-	line-height:20px;
+}
+
+#banner_left img {
+	margin-top:-150px;
+	width:690px;
+	max-height:200px;
 }
 
 #banner_right {
-	max-width:230px;
 	display:inline-block;
-	line-height:20px;
+		max-width:306px;
 
 }
 
-.big_banner {
+#banner_right img {
+	width:310px;
+	height:50px;
+}
+
+
+/*.big_banner {
 	width:697px;
 	height:200px;
 	margin-bottom:-5px;
@@ -124,7 +134,7 @@
 	margin-bottom:-5px;
 	background:url(../pics/banner/5d.png);
 	margin-left:-5px;
-}
+} */
 
 /*--------------------------------------------------------------------------------------------------------------------------------
 														Search
@@ -317,7 +327,7 @@ color:black;
 
 .button-bottom {
 position: absolute;
-top: 463px !important;
+top: 480px !important;
 left: 140px;
 width: 40px;
 height: 40px;
@@ -526,6 +536,11 @@ z-index:30;
 	color:white;
 }
 
+.news_pic img {
+	min-height:70px;
+	min-width:100px;
+}
+
 .news-body {
 	max-width:335px;
 	padding-bottom:15px;
@@ -609,9 +624,24 @@ caption h2 {
 	padding-left:5px;
 }
 
+
+.com-ali img {
+	min-height:184px;
+	margin-top:5px;
+	max-width:96%;
+}
+
 .sales-bg {
 	margin:-10px 0;
+	height:185px;
+	background-color:#EEEEEC;
+	width:100%;
 }
+
+.sales-bg img {
+	padding:20% 0;
+}
+
 .sales-accordion img {
 	padding:5px;
 }
@@ -894,6 +924,10 @@ caption h2 {
 
 .no-top {
 	margin-top:-12px;
+}
+
+.no-top-sales {
+	margin-top:-5px;
 }
 
 .no-left {
